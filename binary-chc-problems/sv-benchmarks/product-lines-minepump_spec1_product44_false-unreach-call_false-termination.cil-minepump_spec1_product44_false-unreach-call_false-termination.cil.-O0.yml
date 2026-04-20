@@ -1,0 +1,7 @@
+format_version: '2.0'
+input_files: product-lines-minepump_spec1_product44_false-unreach-call_false-termination.cil-minepump_spec1_product44_false-unreach-call_false-termination.cil.-O0.smt2
+options:
+  language: SMT-LIB
+properties:
+- expected_verdict: true
+  property_file: ../../properties/check-sat.prp

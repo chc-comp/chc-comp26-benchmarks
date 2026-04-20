@@ -1,0 +1,7 @@
+format_version: '2.0'
+input_files: systemc-bist_cell_true-unreach-call_false-termination.cil-bist_cell_true-unreach-call_false-termination.cil.-O2.smt2
+options:
+  language: SMT-LIB
+properties:
+- expected_verdict: true
+  property_file: ../../properties/check-sat.prp

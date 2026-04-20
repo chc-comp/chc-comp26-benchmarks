@@ -1,0 +1,7 @@
+format_version: '2.0'
+input_files: loops-loops-sum03_false-unreach-call_true-termination.i.annot-sum03_false-unreach-call_true-termination.i.annot.-O2.smt2
+options:
+  language: SMT-LIB
+properties:
+- expected_verdict: true
+  property_file: ../../properties/check-sat.prp

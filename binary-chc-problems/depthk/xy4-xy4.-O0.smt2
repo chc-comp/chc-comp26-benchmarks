@@ -1,0 +1,88 @@
+(set-logic HORN)
+; benchmark generated from python API
+(set-info :status unknown)
+(declare-fun |p$main_4196572::0| ((_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64)) Bool)
+(declare-fun $ENTER$__p$main_4196572 ((_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64)) Bool)
+(declare-fun $EXIT$__p$main_4196572 ((_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64)) Bool)
+(declare-fun |p$main_4196572::42| ((_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64)) Bool)
+(declare-fun |p$main_4196572::5| ((_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64)) Bool)
+(declare-fun |p$main_4196572::22| ((_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 32) (_ BitVec 64)) Bool)
+(declare-fun |p$main_4196572::11| ((_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64)) Bool)
+(declare-fun |p$main_4196572::35| ((_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 32) (_ BitVec 64)) Bool)
+(declare-fun |p$main_4196572::19| ((_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 32) (_ BitVec 64)) Bool)
+(declare-fun |p$main_4196572::25| ((_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 32) (_ BitVec 64)) Bool)
+(declare-fun |p$main_4196572::32| ((_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 32) (_ BitVec 64)) Bool)
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) )(let (($x28 (|p$main_4196572::0| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#_PC_in|)))
+ (let (($x29 ($ENTER$__p$main_4196572 |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#_PC_in|)))
+ (=> $x29 $x28))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#R29_out| (_ BitVec 64)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#R0_out| (_ BitVec 64)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) )(let (($x35 ($EXIT$__p$main_4196572 |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#_PC_in| |p$main_4196572::#R0_out| |p$main_4196572::#R29_out|)))
+ (let (($x36 (|p$main_4196572::42| |p$main_4196572::#R0_in| |p$main_4196572::#R0_out| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R29_out| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#_PC_in|)))
+ (=> $x36 $x35))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (c!2 (_ BitVec 32)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (c!1 (_ BitVec 64)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (c!0 (_ BitVec 64)) )(let (($x57 (and (|p$main_4196572::0| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#_PC_in|) (= (_ bv0 64) c!0) (= (_ bv0 64) c!1) (= (_ bv131073 32) c!2))))
+ (=> $x57 (|p$main_4196572::5| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#_PC_in|))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|#Stack_n32_n24!3| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|#Stack_n4_0!5| (_ BitVec 32)) (|#Stack_n8_n4!6| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (|#Stack_n24_n16!4| (_ BitVec 64)) )(let (($x66 (|p$main_4196572::22| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |#Stack_n24_n16!4| |#Stack_n32_n24!3| |#Stack_n4_0!5| |#Stack_n8_n4!6| |p$main_4196572::#_PC_in|)))
+ (let (($x72 (and (|p$main_4196572::5| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#_PC_in|) (= |#Stack_n32_n24!3| |p$main_4196572::#R29_in|) (= |#Stack_n24_n16!4| |p$main_4196572::#R30_in|) (= (_ bv0 32) |#Stack_n4_0!5|) (= (_ bv0 32) |#Stack_n8_n4!6|))))
+ (=> $x72 $x66))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#Exp14__5_1_1| (_ BitVec 32)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (|#Exp14__5_5_1!7| (_ BitVec 32)) )(let (($x81 (|p$main_4196572::11| |p$main_4196572::#Exp14__5_1_1| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (=> (and $x81 (bvsge (_ bv0 32) |p$main_4196572::#Exp14__5_1_1|) (= |#Exp14__5_5_1!7| |p$main_4196572::#Stack_n8_n4|)) (bvsgt (_ bv0 32) (bvnot |#Exp14__5_5_1!7|)))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#Exp14__5_1_1| (_ BitVec 32)) (|#Exp18__5_7_1!9| (_ BitVec 64)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|#R0_out!10| (_ BitVec 64)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (|#Exp16__5_6_1!8| (_ BitVec 64)) (|#R29_out!11| (_ BitVec 64)) (|#Exp14__5_5_1!7| (_ BitVec 32)) )(let (($x100 (|p$main_4196572::11| |p$main_4196572::#Exp14__5_1_1| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x101 (and $x100 (bvsge (_ bv0 32) |p$main_4196572::#Exp14__5_1_1|) (= |#Exp14__5_5_1!7| |p$main_4196572::#Stack_n8_n4|) (= |#Exp16__5_6_1!8| |p$main_4196572::#Stack_n32_n24|) (= |#Exp18__5_7_1!9| |p$main_4196572::#Stack_n24_n16|) (= (_ bv0 64) |#R0_out!10|) (= |#R29_out!11| |#Exp16__5_6_1!8|))))
+ (=> $x101 (|p$main_4196572::42| |p$main_4196572::#R0_in| |#R0_out!10| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |#R29_out!11| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#_PC_in|)))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n4_0| (_ BitVec 32)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (|#Exp14__5_1_1!12| (_ BitVec 32)) )(let (($x47 (|p$main_4196572::35| |#Exp14__5_1_1!12| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x85 (|p$main_4196572::19| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x87 (and $x85 (= |#Exp14__5_1_1!12| |p$main_4196572::#Stack_n4_0|))))
+ (=> $x87 $x47)))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n4_0| (_ BitVec 32)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (|#Exp14__5_1_1!12| (_ BitVec 32)) )(let (($x105 (|p$main_4196572::11| |#Exp14__5_1_1!12| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x85 (|p$main_4196572::19| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x87 (and $x85 (= |#Exp14__5_1_1!12| |p$main_4196572::#Stack_n4_0|))))
+ (=> $x87 $x105)))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|#R0_2!13| (_ BitVec 32)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n4_0| (_ BitVec 32)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (c!14 (_ BitVec 32)) )(let (($x111 (|p$main_4196572::25| |#R0_2!13| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x113 (|p$main_4196572::22| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x114 (and $x113 (= |#R0_2!13| c!14))))
+ (=> $x114 $x111)))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|#R0_2!13| (_ BitVec 32)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n4_0| (_ BitVec 32)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (c!14 (_ BitVec 32)) )(let (($x117 (|p$main_4196572::32| |#R0_2!13| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x113 (|p$main_4196572::22| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x114 (and $x113 (= |#R0_2!13| c!14))))
+ (=> $x114 $x117)))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#R0_2| (_ BitVec 32)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n4_0| (_ BitVec 32)) (|#Stack_n4_0!16| (_ BitVec 32)) (|#Stack_n8_n4!18| (_ BitVec 32)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) (|#Exp14__5_3_1!15| (_ BitVec 32)) (|#Exp14__5_4_1!17| (_ BitVec 32)) )(let (($x133 (|p$main_4196572::22| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |#Stack_n4_0!16| |#Stack_n8_n4!18| |p$main_4196572::#_PC_in|)))
+ (let (($x142 (|p$main_4196572::25| |p$main_4196572::#R0_2| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x143 (and $x142 (not (= (_ bv0 32) |p$main_4196572::#R0_2|)) (= |#Exp14__5_3_1!15| |p$main_4196572::#Stack_n4_0|) (= |#Stack_n4_0!16| (bvadd |#Exp14__5_3_1!15| (_ bv4 32))) (= |#Exp14__5_4_1!17| |p$main_4196572::#Stack_n8_n4|) (= |#Stack_n8_n4!18| (bvadd |#Exp14__5_4_1!17| (_ bv1 32))))))
+ (=> $x143 $x133)))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|p$main_4196572::#R0_2| (_ BitVec 32)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n4_0| (_ BitVec 32)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) )(let (($x86 (|p$main_4196572::19| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x121 (|p$main_4196572::32| |p$main_4196572::#R0_2| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (=> (and $x121 (= (_ bv0 32) |p$main_4196572::#R0_2|)) $x86))))
+ )
+(assert
+ (forall ((|p$main_4196572::#R0_in| (_ BitVec 64)) (|#Exp14__5_9_1!21| (_ BitVec 32)) (|p$main_4196572::#R31_in| (_ BitVec 64)) (|p$main_4196572::#R30_in| (_ BitVec 64)) (|#Stack_n4_0!20| (_ BitVec 32)) (|p$main_4196572::#Exp14__5_1_1| (_ BitVec 32)) (|p$main_4196572::#R1_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n4_0| (_ BitVec 32)) (|p$main_4196572::#Stack_n32_n24| (_ BitVec 64)) (|p$main_4196572::#Stack_n24_n16| (_ BitVec 64)) (|p$main_4196572::#R29_in| (_ BitVec 64)) (|p$main_4196572::#Stack_n8_n4| (_ BitVec 32)) (|#Exp14__5_8_1!19| (_ BitVec 32)) (|#Stack_n8_n4!22| (_ BitVec 32)) (|p$main_4196572::#_PC_in| (_ BitVec 64)) )(let (($x158 (|p$main_4196572::19| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |#Stack_n4_0!20| |#Stack_n8_n4!22| |p$main_4196572::#_PC_in|)))
+ (let (($x166 (|p$main_4196572::35| |p$main_4196572::#Exp14__5_1_1| |p$main_4196572::#R0_in| |p$main_4196572::#R1_in| |p$main_4196572::#R29_in| |p$main_4196572::#R30_in| |p$main_4196572::#R31_in| |p$main_4196572::#Stack_n24_n16| |p$main_4196572::#Stack_n32_n24| |p$main_4196572::#Stack_n4_0| |p$main_4196572::#Stack_n8_n4| |p$main_4196572::#_PC_in|)))
+ (let (($x167 (and $x166 (bvslt (_ bv0 32) |p$main_4196572::#Exp14__5_1_1|) (= |#Exp14__5_8_1!19| |p$main_4196572::#Stack_n4_0|) (= |#Stack_n4_0!20| (bvadd |#Exp14__5_8_1!19| (_ bv4294967292 32))) (= |#Exp14__5_9_1!21| |p$main_4196572::#Stack_n8_n4|) (= |#Stack_n8_n4!22| (bvadd |#Exp14__5_9_1!21| (_ bv4294967295 32))))))
+ (=> $x167 $x158)))))
+ )
+(assert
+ (forall ((|#R0_in| (_ BitVec 64)) (|#R1_in| (_ BitVec 64)) (|#R29_in| (_ BitVec 64)) (|#R30_in| (_ BitVec 64)) (|#R31_in| (_ BitVec 64)) (|#_PC_in| (_ BitVec 64)) )($ENTER$__p$main_4196572 |#R0_in| |#R1_in| |#R29_in| |#R30_in| |#R31_in| |#_PC_in|))
+)
+(check-sat)
+

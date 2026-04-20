@@ -1,0 +1,7 @@
+format_version: '2.0'
+input_files: recursions-recursive-Ackermann02_false-unreach-call_true-no-overflow_true-termination-Ackermann02_false-unreach-call_true-no-overflow_true-termination.-O2.smt2
+options:
+  language: SMT-LIB
+properties:
+- expected_verdict: true
+  property_file: ../../properties/check-sat.prp
