@@ -5,3 +5,5 @@ options:
 properties:
 - expected_verdict: true
   property_file: ../../../properties/check-sat.prp
+# majority-vote verdict: true
+# supporters (2): CHC2C, Spacer

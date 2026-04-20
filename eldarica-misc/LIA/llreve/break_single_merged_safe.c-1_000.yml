@@ -5,3 +5,5 @@ options:
 properties:
 - expected_verdict: true
   property_file: ../../../properties/check-sat.prp
+# majority-vote verdict: true
+# supporters (9): CHC2C, Golem, LoAT, MuCyc, PCSat, Spacer, ThetaCHC, TreeAutomizer, Unihorn

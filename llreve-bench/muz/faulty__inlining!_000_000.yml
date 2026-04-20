@@ -3,4 +3,7 @@ input_files: faulty__inlining!_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../../properties/check-sat.prp
+- expected_verdict: false
+  property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (8): Eldarica, Golem, MuCyc, PCSat, Spacer, ThetaCHC, TreeAutomizer, Unihorn

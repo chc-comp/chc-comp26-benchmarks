@@ -3,4 +3,7 @@ input_files: 7-trees-3-inc-some-two-1.Z3.0_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../properties/check-sat.prp
+- expected_verdict: false
+  property_file: ../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (1): Spacer

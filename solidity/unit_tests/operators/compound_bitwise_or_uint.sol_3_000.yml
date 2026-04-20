@@ -3,4 +3,7 @@ input_files: compound_bitwise_or_uint.sol_3_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../../../properties/check-sat.prp
+- expected_verdict: true
+  property_file: ../../../properties/check-sat.prp
+# majority-vote verdict: true
+# supporters (1): Spacer

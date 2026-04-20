@@ -3,4 +3,7 @@ input_files: O3_insertion_sort_false-unreach-call_true-termination_000.smt2
 options:
   language: SMT-LIB
 properties:
-  - property_file: ../../../properties/check-sat.prp
+- expected_verdict: false
+  property_file: ../../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (3): Eldarica, Golem, Spacer

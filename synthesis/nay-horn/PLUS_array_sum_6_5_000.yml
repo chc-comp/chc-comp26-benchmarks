@@ -5,3 +5,6 @@ options:
 properties:
 - expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (5): Eldarica, Golem, MuCyc, PCSat, Spacer
+# opposers (1): CHC2C
