@@ -3,5 +3,7 @@ input_files: VeriMAP-TRACER-testabs12_VeriMAP_true-TRACER-testabs12_VeriMAP_true
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (1): spacer

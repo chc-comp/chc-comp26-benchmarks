@@ -5,3 +5,5 @@ options:
 properties:
 - expected_verdict: true
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: true
+# supporters (1): spacer

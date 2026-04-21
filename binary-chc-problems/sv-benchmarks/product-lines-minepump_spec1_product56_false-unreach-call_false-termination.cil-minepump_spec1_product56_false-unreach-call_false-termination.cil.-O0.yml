@@ -3,5 +3,7 @@ input_files: product-lines-minepump_spec1_product56_false-unreach-call_false-ter
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (1): spacer

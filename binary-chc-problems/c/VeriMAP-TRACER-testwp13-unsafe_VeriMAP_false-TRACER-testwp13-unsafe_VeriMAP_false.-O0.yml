@@ -3,5 +3,7 @@ input_files: VeriMAP-TRACER-testwp13-unsafe_VeriMAP_false-TRACER-testwp13-unsafe
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (2): eldarica, spacer

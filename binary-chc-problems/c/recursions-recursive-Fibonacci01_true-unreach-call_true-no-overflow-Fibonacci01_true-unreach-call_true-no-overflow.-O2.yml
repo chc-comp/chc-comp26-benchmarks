@@ -3,5 +3,7 @@ input_files: recursions-recursive-Fibonacci01_true-unreach-call_true-no-overflow
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (2): eldarica, spacer

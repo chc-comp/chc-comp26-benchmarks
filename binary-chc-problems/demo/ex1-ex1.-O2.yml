@@ -1,0 +1,9 @@
+format_version: '2.0'
+input_files: ex1-ex1.-O2.smt2
+options:
+  language: SMT-LIB
+properties:
+- expected_verdict: true
+  property_file: ../../properties/check-sat.prp
+# majority-vote verdict: true
+# supporters (1): spacer

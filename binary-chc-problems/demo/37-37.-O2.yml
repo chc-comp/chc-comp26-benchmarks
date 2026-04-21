@@ -3,5 +3,7 @@ input_files: 37-37.-O2.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (1): spacer

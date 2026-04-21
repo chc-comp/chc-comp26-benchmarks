@@ -3,5 +3,7 @@ input_files: systemc-token_ring.01_false-unreach-call_false-termination.cil-toke
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (2): eldarica, spacer

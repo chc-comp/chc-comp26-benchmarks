@@ -3,5 +3,7 @@ input_files: recursions-recursive-Addition03_false-no-overflow-Addition03_false-
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (1): eldarica

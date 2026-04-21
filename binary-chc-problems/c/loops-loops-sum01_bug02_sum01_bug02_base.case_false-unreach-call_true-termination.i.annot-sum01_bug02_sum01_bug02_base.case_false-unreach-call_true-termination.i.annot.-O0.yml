@@ -3,5 +3,7 @@ input_files: loops-loops-sum01_bug02_sum01_bug02_base.case_false-unreach-call_tr
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (2): eldarica, spacer

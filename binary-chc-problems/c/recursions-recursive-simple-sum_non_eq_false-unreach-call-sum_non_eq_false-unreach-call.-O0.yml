@@ -3,5 +3,7 @@ input_files: recursions-recursive-simple-sum_non_eq_false-unreach-call-sum_non_e
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (2): eldarica, spacer

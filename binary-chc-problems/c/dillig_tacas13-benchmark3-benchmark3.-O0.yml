@@ -3,5 +3,7 @@ input_files: dillig_tacas13-benchmark3-benchmark3.-O0.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
+# majority-vote verdict: false
+# supporters (1): eldarica
