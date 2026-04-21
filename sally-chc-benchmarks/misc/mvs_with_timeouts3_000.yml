@@ -9,3 +9,5 @@ properties:
   - eldarica
   unsat:
   - golem
+  expected_verdict: true
+  # placeholder verdict (auto-added)

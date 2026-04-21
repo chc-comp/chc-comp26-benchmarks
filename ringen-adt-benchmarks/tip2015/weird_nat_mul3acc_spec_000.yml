@@ -9,3 +9,5 @@ properties:
   - chococatalia
   unsat:
   - spacer
+  expected_verdict: true
+  # placeholder verdict (auto-added)

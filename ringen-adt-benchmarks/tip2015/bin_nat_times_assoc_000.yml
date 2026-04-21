@@ -4,3 +4,5 @@ options:
   language: SMT-LIB
 properties:
 - property_file: ../../properties/check-sat.prp
+  expected_verdict: true
+  # placeholder verdict (auto-added)
