@@ -16,3 +16,5 @@ Metatada specifies the expected verdict, which can be either
 - not present: no tool solved this benchmark in 2025/2026, or there are equal conflicting outcomes
 - `true`: majority of tools who succeeded reported `sat`
 - `false`: majority of tools who succeeded reported `unsat`
+
+For the competition, we add a placeholder `sat` label to benchmarks without a clear expected verdict, to also execute these benchmarks. 
