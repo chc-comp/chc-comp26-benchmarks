@@ -3,7 +3,8 @@ input_files: shift_right_negative_lvalue_int16.sol_2_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
+- expected_verdict: false
+  majority_vote_verdict: unsat
   property_file: ../../../../properties/check-sat.prp
-# majority-vote verdict: true
-# supporters (1): Spacer
+  unsat:
+  - spacer

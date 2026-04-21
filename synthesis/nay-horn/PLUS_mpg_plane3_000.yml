@@ -4,7 +4,11 @@ options:
   language: SMT-LIB
 properties:
 - expected_verdict: false
+  majority_vote_verdict: unsat
   property_file: ../../properties/check-sat.prp
-# majority-vote verdict: false
-# supporters (3): Golem, MuCyc, Spacer
-# opposers (1): CHC2C
+  sat:
+  - chc2c
+  unsat:
+  - golem
+  - mucyc
+  - spacer

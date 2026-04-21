@@ -4,6 +4,10 @@ options:
   language: SMT-LIB
 properties:
 - expected_verdict: true
+  majority_vote_verdict: sat
   property_file: ../../../properties/check-sat.prp
-# majority-vote verdict: true
-# supporters (3): Eldarica, MuCyc, Spacer
+  sat:
+  - eldarica
+  - mucyc
+  - spacer
+  - ultimateunihorn

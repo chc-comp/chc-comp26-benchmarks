@@ -4,6 +4,12 @@ options:
   language: SMT-LIB
 properties:
 - expected_verdict: false
+  majority_vote_verdict: unsat
   property_file: ../../properties/check-sat.prp
-# majority-vote verdict: false
-# supporters (7): Golem, LoAT, MuCyc, Spacer, ThetaCHC, TreeAutomizer, Unihorn
+  unsat:
+  - golem
+  - loat
+  - mucyc
+  - spacer
+  - theta
+  - ultimateunihorn

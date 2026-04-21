@@ -3,7 +3,8 @@ input_files: sll-rb-cnstr_1-2.i-valid-deref_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../../properties/check-sat.prp
-# majority-vote verdict: inconsistent
-# sat (1): Spacer
-# unsat (1): Eldarica
+- expected_verdict: false
+  majority_vote_verdict: unsat
+  property_file: ../../properties/check-sat.prp
+  unsat:
+  - eldarica

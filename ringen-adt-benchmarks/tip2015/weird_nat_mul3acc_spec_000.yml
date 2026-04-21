@@ -3,7 +3,9 @@ input_files: weird_nat_mul3acc_spec_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../../properties/check-sat.prp
-# majority-vote verdict: inconsistent
-# sat (1): ChocoCatalia
-# unsat (1): Spacer
+- majority_vote_verdict: inconsistent
+  property_file: ../../properties/check-sat.prp
+  sat:
+  - chococatalia
+  unsat:
+  - spacer

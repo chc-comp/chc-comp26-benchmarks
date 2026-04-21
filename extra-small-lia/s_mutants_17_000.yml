@@ -4,6 +4,11 @@ options:
   language: SMT-LIB
 properties:
 - expected_verdict: true
+  majority_vote_verdict: sat
   property_file: ../properties/check-sat.prp
-# majority-vote verdict: true
-# supporters (4): CHC2C, Golem, LoAT, PCSat
+  sat:
+  - chc2c
+  - eldarica
+  - golem
+  - loat
+  - pcsat

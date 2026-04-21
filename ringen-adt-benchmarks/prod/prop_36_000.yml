@@ -3,4 +3,8 @@ input_files: prop_36_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../../properties/check-sat.prp
+- expected_verdict: true
+  majority_vote_verdict: sat
+  property_file: ../../properties/check-sat.prp
+  sat:
+  - spacer

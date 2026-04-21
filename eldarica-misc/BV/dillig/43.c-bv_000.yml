@@ -3,7 +3,9 @@ input_files: 43.c-bv_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../../../properties/check-sat.prp
-# majority-vote verdict: inconsistent
-# sat (1): Eldarica
-# unsat (1): ThetaCHC
+- majority_vote_verdict: inconsistent
+  property_file: ../../../properties/check-sat.prp
+  sat:
+  - eldarica
+  unsat:
+  - theta

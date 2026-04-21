@@ -4,6 +4,14 @@ options:
   language: SMT-LIB
 properties:
 - expected_verdict: true
+  majority_vote_verdict: sat
   property_file: ../../../properties/check-sat.prp
-# majority-vote verdict: true
-# supporters (8): Eldarica, Golem, LoAT, MuCyc, Spacer, ThetaCHC, TreeAutomizer, Unihorn
+  sat:
+  - eldarica
+  - golem
+  - loat
+  - mucyc
+  - spacer
+  - theta
+  - ultimatetreeautomizer
+  - ultimateunihorn

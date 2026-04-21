@@ -4,6 +4,11 @@ options:
   language: SMT-LIB
 properties:
 - expected_verdict: true
+  majority_vote_verdict: sat
   property_file: ../properties/check-sat.prp
-# majority-vote verdict: true
-# supporters (5): Golem, LoAT, PCSat, ThetaCHC, Unihorn
+  sat:
+  - golem
+  - loat
+  - pcsat
+  - theta
+  - ultimateunihorn

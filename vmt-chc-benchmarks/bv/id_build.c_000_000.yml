@@ -3,7 +3,9 @@ input_files: id_build.c_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: false
+- majority_vote_verdict: inconsistent
   property_file: ../../properties/check-sat.prp
-# majority-vote verdict: false
-# supporters (1): ThetaCHC
+  sat:
+  - spacer
+  unsat:
+  - theta
