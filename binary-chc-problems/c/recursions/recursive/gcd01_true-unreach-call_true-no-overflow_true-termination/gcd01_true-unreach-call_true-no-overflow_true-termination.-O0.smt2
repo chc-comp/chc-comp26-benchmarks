@@ -1,0 +1,188 @@
+(set-logic HORN)
+
+
+(declare-fun |p$gcd_4196572::15| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |$ENTER$__p$gcd_4196572| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (v_6 (_ BitVec 64)) (v_7 (_ BitVec 64)) (v_8 (_ BitVec 64)) (v_9 (_ BitVec 64)) (v_10 (_ BitVec 64)) ) 
+    (=>
+      (and
+        ($ENTER$__p$gcd_4196572 C E A F B D)
+        (and (bvsle ((_ extract 31 0) C) #x00000000)
+     (= #x0000000000000000 v_6)
+     (= v_7 E)
+     (= v_8 F)
+     (= v_9 A)
+     (= v_10 D))
+      )
+      (|p$gcd_4196572::15| v_6 C E v_7 A F B v_8 v_9 D v_10)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (v_6 (_ BitVec 64)) (v_7 (_ BitVec 64)) (v_8 (_ BitVec 64)) (v_9 (_ BitVec 64)) (v_10 (_ BitVec 64)) ) 
+    (=>
+      (and
+        ($ENTER$__p$gcd_4196572 C E A F B D)
+        (and (not (bvsle ((_ extract 31 0) C) #x00000000))
+     (bvsle ((_ extract 31 0) E) #x00000000)
+     (= #x0000000000000000 v_6)
+     (= v_7 E)
+     (= v_8 F)
+     (= v_9 A)
+     (= v_10 D))
+      )
+      (|p$gcd_4196572::15| v_6 C E v_7 A F B v_8 v_9 D v_10)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (v_15 (_ BitVec 64)) (v_16 (_ BitVec 64)) (v_17 (_ BitVec 64)) ) 
+    (=>
+      (and
+        ($ENTER$__p$gcd_4196572 M N K O L E)
+        (|p$gcd_4196572::15| J D H G A v_15 B I C F E)
+        (let ((a!1 (concat #x00000000
+                   (bvadd ((_ extract 31 0) M)
+                          (bvmul #xffffffff ((_ extract 31 0) N))))))
+  (and (= #x0000000000400948 v_15)
+       (not (bvsle ((_ extract 31 0) M) #x00000000))
+       (not (bvsle ((_ extract 31 0) M) ((_ extract 31 0) N)))
+       (= D a!1)
+       (= B (bvadd #xffffffffffffffe0 L))
+       (= A (bvadd #xffffffffffffffe0 L))
+       (= G (concat #x00000000 ((_ extract 31 0) N)))
+       (not (= ((_ extract 31 0) M) ((_ extract 31 0) N)))
+       (not (bvsle ((_ extract 31 0) N) #x00000000))
+       (= v_16 O)
+       (= v_17 K)))
+      )
+      (|p$gcd_4196572::15| J M H N K O L v_16 v_17 F E)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (v_15 (_ BitVec 64)) (v_16 (_ BitVec 64)) (v_17 (_ BitVec 64)) ) 
+    (=>
+      (and
+        ($ENTER$__p$gcd_4196572 M N K O L E)
+        (|p$gcd_4196572::15| J D H G A v_15 B I C F E)
+        (let ((a!1 (concat #x00000000
+                   (bvadd ((_ extract 31 0) N)
+                          (bvmul #xffffffff ((_ extract 31 0) M))))))
+  (and (= #x0000000000400964 v_15)
+       (not (bvsle ((_ extract 31 0) M) #x00000000))
+       (bvsle ((_ extract 31 0) M) ((_ extract 31 0) N))
+       (= D (concat #x00000000 ((_ extract 31 0) M)))
+       (= B (bvadd #xffffffffffffffe0 L))
+       (= A (bvadd #xffffffffffffffe0 L))
+       (= G a!1)
+       (not (= ((_ extract 31 0) M) ((_ extract 31 0) N)))
+       (not (bvsle ((_ extract 31 0) N) #x00000000))
+       (= v_16 O)
+       (= v_17 K)))
+      )
+      (|p$gcd_4196572::15| J M H N K O L v_16 v_17 F E)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (v_8 (_ BitVec 64)) (v_9 (_ BitVec 64)) (v_10 (_ BitVec 64)) ) 
+    (=>
+      (and
+        ($ENTER$__p$gcd_4196572 C E A F B D)
+        (and (not (bvsle ((_ extract 31 0) C) #x00000000))
+     (= H (concat #x00000000 ((_ extract 31 0) C)))
+     (= G (concat #x00000000 ((_ extract 31 0) C)))
+     (= ((_ extract 31 0) G) ((_ extract 31 0) E))
+     (not (bvsle ((_ extract 31 0) E) #x00000000))
+     (= v_8 F)
+     (= v_9 A)
+     (= v_10 D))
+      )
+      (|p$gcd_4196572::15| H C G E A F B v_8 v_9 D v_10)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 32)) (D (_ BitVec 32)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (v_8 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (and (not (bvsle C #x00000000))
+     (= H (concat #x00000000 C))
+     (= G (concat #x00000000 D))
+     (= F (bvadd #xffffffffffffffe0 A))
+     (= E (bvadd #xffffffffffffffe0 A))
+     (not (bvsle D #x00000000))
+     (= #x00000000004009b8 v_8))
+      )
+      ($ENTER$__p$gcd_4196572 H G F v_8 E B)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (v_10 (_ BitVec 64)) ) 
+    (=>
+      (and
+        ($ENTER$__p$gcd_4196572 C E A F B D)
+        (let ((a!1 (concat #x00000000
+                   (bvadd ((_ extract 31 0) C)
+                          (bvmul #xffffffff ((_ extract 31 0) E))))))
+  (and (not (bvsle ((_ extract 31 0) C) ((_ extract 31 0) E)))
+       (not (bvsle ((_ extract 31 0) E) #x00000000))
+       (= J a!1)
+       (= I (concat #x00000000 ((_ extract 31 0) E)))
+       (= H (bvadd #xffffffffffffffe0 B))
+       (= G (bvadd #xffffffffffffffe0 B))
+       (not (= ((_ extract 31 0) C) ((_ extract 31 0) E)))
+       (not (bvsle ((_ extract 31 0) C) #x00000000))
+       (= #x0000000000400948 v_10)))
+      )
+      ($ENTER$__p$gcd_4196572 J I H v_10 G D)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (v_10 (_ BitVec 64)) ) 
+    (=>
+      (and
+        ($ENTER$__p$gcd_4196572 C E A F B D)
+        (let ((a!1 (concat #x00000000
+                   (bvadd ((_ extract 31 0) E)
+                          (bvmul #xffffffff ((_ extract 31 0) C))))))
+  (and (bvsle ((_ extract 31 0) C) ((_ extract 31 0) E))
+       (not (bvsle ((_ extract 31 0) E) #x00000000))
+       (= J (concat #x00000000 ((_ extract 31 0) C)))
+       (= I a!1)
+       (= H (bvadd #xffffffffffffffe0 B))
+       (= G (bvadd #xffffffffffffffe0 B))
+       (not (= ((_ extract 31 0) C) ((_ extract 31 0) E)))
+       (not (bvsle ((_ extract 31 0) C) #x00000000))
+       (= #x0000000000400964 v_10)))
+      )
+      ($ENTER$__p$gcd_4196572 J I H v_10 G D)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 32)) (M (_ BitVec 32)) (v_13 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$gcd_4196572::15| J D H G A v_13 B I C F E)
+        (and (= #x00000000004009b8 v_13)
+     (not (bvsle L #x00000000))
+     (not (bvsle M #x00000000))
+     (= B (bvadd #xffffffffffffffe0 K))
+     (= A (bvadd #xffffffffffffffe0 K))
+     (= D (concat #x00000000 L))
+     (= G (concat #x00000000 M))
+     (bvsle ((_ extract 31 0) J) #x00000000))
+      )
+      false
+    )
+  )
+)
+
+(check-sat)
+(exit)

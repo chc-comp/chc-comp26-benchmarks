@@ -1,0 +1,5015 @@
+(set-logic HORN)
+
+
+(declare-fun |p$fibonacci_4196516::73| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::62| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::58| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::50| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::35| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::81| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::70| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::66| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::54| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::0| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::79| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::77| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::83| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::87| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::85| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::5| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::46| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+(declare-fun |p$fibonacci_4196516::75| ( (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 32) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) (_ BitVec 64) ) Bool)
+
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 32)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) (A2 (_ BitVec 64)) (B2 (_ BitVec 64)) (C2 (_ BitVec 64)) (v_55 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::70|
+  A1
+  M
+  C
+  W
+  F1
+  G1
+  V
+  X
+  A2
+  A
+  L
+  S
+  S1
+  D
+  H
+  W1
+  N
+  H1
+  T
+  Y
+  Z
+  O1
+  P1
+  R
+  J
+  B
+  I
+  T1
+  I1
+  K
+  B1
+  L1
+  O
+  B2
+  U
+  Q
+  X1
+  G
+  J1
+  C1
+  Q1
+  Z1
+  Y1
+  K1
+  D1
+  U1
+  E1
+  R1
+  E
+  N1
+  V1
+  F
+  M1)
+        (let ((a!1 (= P (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) N))))))
+  (and (= C2 (bvadd #xffffffffffffff70 B))
+       (not (= ((_ extract 31 0) N) #x00000001))
+       a!1
+       (= #x0000000000400980 v_55)))
+      )
+      (|p$fibonacci_4196516::0| P M F1 V A2 L S1 H N T Z P1 v_55 C2 I I1 B1 O U F)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (v_19 (_ BitVec 64)) (v_20 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (and (= A (bvadd #xfffffffffffffff0 Q))
+     (= B (bvadd #xfffffffffffffff0 Q))
+     (= #x0000000000000009 v_19)
+     (= #x00000000004006d0 v_20))
+      )
+      (|p$fibonacci_4196516::0| v_19 N J C E O R S G L K B v_20 A P D F H M I)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::81|
+  T
+  D
+  M1
+  X
+  P
+  A
+  N
+  E
+  R
+  N1
+  Z
+  S
+  Q
+  F1
+  O
+  M
+  I
+  B
+  K
+  J1
+  H
+  J
+  C
+  C1
+  F
+  Q1
+  I1
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  G
+  E1
+  L1
+  Y
+  D1)
+        (let ((a!1 (= S1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) C)))))
+      (a!2 (= R1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) H) ((_ extract 31 0) T1)))))
+      (a!3 (= T1 (concat #x00000000 (bvadd #x00000001 ((_ extract 31 0) F))))))
+  (and a!1
+       a!2
+       (= ((_ extract 31 0) C) #x00000002)
+       (= ((_ extract 31 0) I1) #x00000001)
+       a!3))
+      )
+      (|p$fibonacci_4196516::46|
+  T
+  D
+  M1
+  X
+  P
+  A
+  N
+  E
+  R
+  N1
+  Z
+  S
+  Q
+  F1
+  O
+  M
+  I
+  B
+  K
+  J1
+  R1
+  J
+  S1
+  C1
+  T1
+  Q1
+  I1
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  G
+  E1
+  L1
+  Y
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 32)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) (A2 (_ BitVec 64)) (B2 (_ BitVec 64)) (C2 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::70|
+  Z
+  M
+  C
+  V
+  E1
+  F1
+  U
+  W
+  Z1
+  A
+  L
+  R
+  R1
+  D
+  H
+  V1
+  N
+  G1
+  S
+  X
+  Y
+  N1
+  O1
+  Q
+  J
+  B
+  I
+  S1
+  H1
+  K
+  A1
+  K1
+  O
+  A2
+  T
+  P
+  W1
+  G
+  I1
+  B1
+  P1
+  Y1
+  X1
+  J1
+  C1
+  T1
+  D1
+  Q1
+  E
+  M1
+  U1
+  F
+  L1)
+        (let ((a!1 (= B2
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) Z1)
+                             ((_ extract 31 0) R1)))))
+      (a!2 (= C2 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) S))))))
+  (and a!1
+       (= ((_ extract 31 0) N) #x00000001)
+       (not (= ((_ extract 31 0) S) #x00000002))
+       a!2))
+      )
+      (|p$fibonacci_4196516::73|
+  Z
+  M
+  C
+  V
+  E1
+  F1
+  U
+  W
+  B2
+  A
+  L
+  R
+  D
+  H
+  V1
+  G1
+  C2
+  X
+  Y
+  N1
+  O1
+  Q
+  J
+  B
+  I
+  S1
+  H1
+  K
+  A1
+  K1
+  O
+  A2
+  T
+  P
+  W1
+  G
+  I1
+  B1
+  P1
+  Y1
+  X1
+  J1
+  C1
+  T1
+  D1
+  Q1
+  E
+  M1
+  U1
+  F
+  L1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 32)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) (A2 (_ BitVec 64)) (B2 (_ BitVec 64)) (C2 (_ BitVec 64)) (D2 (_ BitVec 64)) (E2 (_ BitVec 64)) (F2 (_ BitVec 64)) (G2 (_ BitVec 64)) (H2 (_ BitVec 64)) (I2 (_ BitVec 64)) (J2 (_ BitVec 64)) (K2 (_ BitVec 64)) (L2 (_ BitVec 64)) (M2 (_ BitVec 64)) (N2 (_ BitVec 64)) (O2 (_ BitVec 64)) (P2 (_ BitVec 64)) (Q2 (_ BitVec 64)) (R2 (_ BitVec 64)) (S2 (_ BitVec 64)) (T2 (_ BitVec 64)) (U2 (_ BitVec 64)) (V2 (_ BitVec 64)) (W2 (_ BitVec 64)) (X2 (_ BitVec 64)) (Y2 (_ BitVec 64)) (Z2 (_ BitVec 64)) (A3 (_ BitVec 64)) (B3 (_ BitVec 64)) (C3 (_ BitVec 64)) (D3 (_ BitVec 64)) (E3 (_ BitVec 64)) (v_83 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::5|
+  T2
+  P
+  G2
+  M
+  D2
+  S2
+  F1
+  O2
+  V
+  J2
+  A2
+  R2
+  L
+  V2
+  S1
+  K2
+  H
+  P2
+  N
+  Q2
+  T
+  L2
+  Z
+  E2
+  P1
+  v_83
+  C2
+  I2
+  I
+  H2
+  I1
+  F2
+  B1
+  U2
+  O
+  M2
+  U
+  N2
+  F)
+        (|p$fibonacci_4196516::70|
+  A1
+  M
+  C
+  W
+  F1
+  G1
+  V
+  X
+  A2
+  A
+  L
+  S
+  S1
+  D
+  H
+  W1
+  N
+  H1
+  T
+  Y
+  Z
+  O1
+  P1
+  R
+  J
+  B
+  I
+  T1
+  I1
+  K
+  B1
+  L1
+  O
+  B2
+  U
+  Q
+  X1
+  G
+  J1
+  C1
+  Q1
+  Z1
+  Y1
+  K1
+  D1
+  U1
+  E1
+  R1
+  E
+  N1
+  V1
+  F
+  M1)
+        (let ((a!1 (= E3
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) J2)
+                             ((_ extract 31 0) V2)
+                             ((_ extract 31 0) T2)))))
+      (a!2 (= P (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) N))))))
+  (and (= #x0000000000400980 v_83)
+       (= C2 (bvadd #xffffffffffffff70 B))
+       a!1
+       (= D3 (concat #x00000000 ((_ extract 31 0) G)))
+       (= C3 (concat #x00000000 ((_ extract 31 0) X1)))
+       (= B3 (concat #x00000000 ((_ extract 31 0) O)))
+       (= A3 (concat #x00000000 ((_ extract 31 0) I)))
+       (= Z2 (concat #x00000000 ((_ extract 31 0) I1)))
+       (= Y2 (concat #x00000000 ((_ extract 31 0) U)))
+       (= X2 (concat #x00000000 ((_ extract 31 0) W)))
+       (= W2 (concat #x00000000 ((_ extract 31 0) B1)))
+       (not (= ((_ extract 31 0) N) #x00000001))
+       (= ((_ extract 31 0) Q2) #x00000002)
+       (= ((_ extract 31 0) P2) #x00000002)
+       a!2))
+      )
+      (|p$fibonacci_4196516::66|
+  A1
+  G2
+  C
+  X2
+  S2
+  G1
+  O2
+  X
+  E3
+  A
+  R2
+  S
+  D
+  K2
+  W1
+  H1
+  Y
+  L2
+  O1
+  E2
+  R
+  J
+  B
+  A3
+  T1
+  Z2
+  K
+  W2
+  L1
+  B3
+  B2
+  Y2
+  Q
+  C3
+  D3
+  J1
+  C1
+  Q1
+  Z1
+  Y1
+  K1
+  D1
+  U1
+  E1
+  R1
+  E
+  N1
+  V1
+  N2
+  M1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 32)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) (A2 (_ BitVec 64)) (B2 (_ BitVec 64)) (C2 (_ BitVec 64)) (D2 (_ BitVec 64)) (E2 (_ BitVec 64)) (F2 (_ BitVec 64)) (G2 (_ BitVec 64)) (H2 (_ BitVec 64)) (I2 (_ BitVec 64)) (J2 (_ BitVec 64)) (K2 (_ BitVec 64)) (L2 (_ BitVec 64)) (M2 (_ BitVec 64)) (N2 (_ BitVec 64)) (O2 (_ BitVec 64)) (P2 (_ BitVec 64)) (Q2 (_ BitVec 64)) (R2 (_ BitVec 64)) (S2 (_ BitVec 64)) (T2 (_ BitVec 64)) (U2 (_ BitVec 64)) (V2 (_ BitVec 64)) (W2 (_ BitVec 64)) (X2 (_ BitVec 64)) (Y2 (_ BitVec 64)) (Z2 (_ BitVec 64)) (A3 (_ BitVec 64)) (B3 (_ BitVec 64)) (C3 (_ BitVec 64)) (D3 (_ BitVec 64)) (E3 (_ BitVec 64)) (F3 (_ BitVec 64)) (v_84 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::5|
+  T2
+  P
+  G2
+  M
+  D2
+  S2
+  F1
+  O2
+  V
+  J2
+  A2
+  R2
+  L
+  V2
+  S1
+  K2
+  H
+  P2
+  N
+  Q2
+  T
+  L2
+  Z
+  E2
+  P1
+  v_84
+  C2
+  I2
+  I
+  H2
+  I1
+  F2
+  B1
+  U2
+  O
+  M2
+  U
+  N2
+  F)
+        (|p$fibonacci_4196516::70|
+  A1
+  M
+  C
+  W
+  F1
+  G1
+  V
+  X
+  A2
+  A
+  L
+  S
+  S1
+  D
+  H
+  W1
+  N
+  H1
+  T
+  Y
+  Z
+  O1
+  P1
+  R
+  J
+  B
+  I
+  T1
+  I1
+  K
+  B1
+  L1
+  O
+  B2
+  U
+  Q
+  X1
+  G
+  J1
+  C1
+  Q1
+  Z1
+  Y1
+  K1
+  D1
+  U1
+  E1
+  R1
+  E
+  N1
+  V1
+  F
+  M1)
+        (let ((a!1 (= A3 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) P2)))))
+      (a!2 (= Z2
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) V2) ((_ extract 31 0) T2)))))
+      (a!3 (= P (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) N))))))
+  (and (= #x0000000000400980 v_84)
+       (= C2 (bvadd #xffffffffffffff70 B))
+       (= F3 (concat #x00000000 ((_ extract 31 0) G)))
+       (= E3 (concat #x00000000 ((_ extract 31 0) X1)))
+       (= D3 (concat #x00000000 ((_ extract 31 0) O)))
+       (= C3 (concat #x00000000 ((_ extract 31 0) I)))
+       (= B3 (concat #x00000000 ((_ extract 31 0) I1)))
+       a!1
+       a!2
+       (= Y2 (concat #x00000000 ((_ extract 31 0) U)))
+       (= X2 (concat #x00000000 ((_ extract 31 0) W)))
+       (= W2 (concat #x00000000 ((_ extract 31 0) B1)))
+       (not (= ((_ extract 31 0) N) #x00000001))
+       (not (= ((_ extract 31 0) P2) #x00000002))
+       a!3))
+      )
+      (|p$fibonacci_4196516::70|
+  A1
+  G2
+  C
+  X2
+  S2
+  G1
+  O2
+  X
+  J2
+  A
+  R2
+  S
+  Z2
+  D
+  K2
+  W1
+  A3
+  H1
+  Q2
+  Y
+  L2
+  O1
+  E2
+  R
+  J
+  B
+  C3
+  T1
+  B3
+  K
+  W2
+  L1
+  D3
+  B2
+  Y2
+  Q
+  E3
+  F3
+  J1
+  C1
+  Q1
+  Z1
+  Y1
+  K1
+  D1
+  U1
+  E1
+  R1
+  E
+  N1
+  V1
+  N2
+  M1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 32)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::54|
+  Q
+  C
+  T1
+  W
+  N
+  A
+  L
+  D
+  U
+  M1
+  X
+  O
+  G1
+  D1
+  P1
+  K
+  H
+  B
+  P
+  J1
+  N1
+  I
+  G
+  A1
+  E
+  S1
+  V
+  J
+  H1
+  Y
+  R
+  E1
+  R1
+  Q1
+  Z
+  S
+  K1
+  T
+  I1
+  F
+  C1
+  L1
+  M
+  B1)
+        (let ((a!1 (= F1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) E) ((_ extract 31 0) H1)))))
+      (a!2 (= O1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) V))))))
+  (and a!1 (not (= ((_ extract 31 0) V) #x00000002)) a!2))
+      )
+      (|p$fibonacci_4196516::81|
+  Q
+  C
+  T1
+  W
+  N
+  A
+  L
+  D
+  U
+  M1
+  X
+  O
+  G1
+  D1
+  P1
+  K
+  H
+  B
+  P
+  J1
+  N1
+  I
+  G
+  A1
+  F1
+  S1
+  O1
+  J
+  Y
+  R
+  E1
+  R1
+  Q1
+  Z
+  S
+  K1
+  T
+  I1
+  F
+  C1
+  L1
+  M
+  B1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 32)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) (A2 (_ BitVec 64)) (B2 (_ BitVec 64)) (C2 (_ BitVec 64)) (D2 (_ BitVec 64)) (E2 (_ BitVec 64)) (F2 (_ BitVec 64)) (G2 (_ BitVec 64)) (H2 (_ BitVec 64)) (I2 (_ BitVec 64)) (J2 (_ BitVec 64)) (K2 (_ BitVec 64)) (L2 (_ BitVec 64)) (M2 (_ BitVec 64)) (N2 (_ BitVec 64)) (O2 (_ BitVec 64)) (P2 (_ BitVec 64)) (Q2 (_ BitVec 64)) (R2 (_ BitVec 64)) (S2 (_ BitVec 64)) (T2 (_ BitVec 64)) (U2 (_ BitVec 64)) (V2 (_ BitVec 64)) (W2 (_ BitVec 64)) (X2 (_ BitVec 64)) (Y2 (_ BitVec 64)) (Z2 (_ BitVec 64)) (A3 (_ BitVec 64)) (B3 (_ BitVec 64)) (C3 (_ BitVec 64)) (D3 (_ BitVec 64)) (E3 (_ BitVec 64)) (F3 (_ BitVec 64)) (v_84 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::5|
+  T2
+  P
+  G2
+  M
+  D2
+  S2
+  F1
+  O2
+  V
+  J2
+  A2
+  R2
+  L
+  V2
+  S1
+  K2
+  H
+  P2
+  N
+  Q2
+  T
+  L2
+  Z
+  E2
+  P1
+  v_84
+  C2
+  I2
+  I
+  H2
+  I1
+  F2
+  B1
+  U2
+  O
+  M2
+  U
+  N2
+  F)
+        (|p$fibonacci_4196516::70|
+  A1
+  M
+  C
+  W
+  F1
+  G1
+  V
+  X
+  A2
+  A
+  L
+  S
+  S1
+  D
+  H
+  W1
+  N
+  H1
+  T
+  Y
+  Z
+  O1
+  P1
+  R
+  J
+  B
+  I
+  T1
+  I1
+  K
+  B1
+  L1
+  O
+  B2
+  U
+  Q
+  X1
+  G
+  J1
+  C1
+  Q1
+  Z1
+  Y1
+  K1
+  D1
+  U1
+  E1
+  R1
+  E
+  N1
+  V1
+  F
+  M1)
+        (let ((a!1 (= F3 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) Q2)))))
+      (a!2 (= E3
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) J2)
+                             ((_ extract 31 0) V2)
+                             ((_ extract 31 0) T2)))))
+      (a!3 (= P (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) N))))))
+  (and (= #x0000000000400980 v_84)
+       (= C2 (bvadd #xffffffffffffff70 B))
+       a!1
+       a!2
+       (= D3 (concat #x00000000 ((_ extract 31 0) G)))
+       (= C3 (concat #x00000000 ((_ extract 31 0) X1)))
+       (= B3 (concat #x00000000 ((_ extract 31 0) O)))
+       (= A3 (concat #x00000000 ((_ extract 31 0) I)))
+       (= Z2 (concat #x00000000 ((_ extract 31 0) I1)))
+       (= Y2 (concat #x00000000 ((_ extract 31 0) U)))
+       (= X2 (concat #x00000000 ((_ extract 31 0) W)))
+       (= W2 (concat #x00000000 ((_ extract 31 0) B1)))
+       (not (= ((_ extract 31 0) N) #x00000001))
+       (not (= ((_ extract 31 0) Q2) #x00000002))
+       (= ((_ extract 31 0) P2) #x00000002)
+       a!3))
+      )
+      (|p$fibonacci_4196516::73|
+  A1
+  G2
+  C
+  X2
+  S2
+  G1
+  O2
+  X
+  E3
+  A
+  R2
+  S
+  D
+  K2
+  W1
+  H1
+  F3
+  Y
+  L2
+  O1
+  E2
+  R
+  J
+  B
+  A3
+  T1
+  Z2
+  K
+  W2
+  L1
+  B3
+  B2
+  Y2
+  Q
+  C3
+  D3
+  J1
+  C1
+  Q1
+  Z1
+  Y1
+  K1
+  D1
+  U1
+  E1
+  R1
+  E
+  N1
+  V1
+  N2
+  M1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 32)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) (A2 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::73|
+  S
+  O
+  C
+  Q
+  E1
+  A1
+  V1
+  P
+  H
+  A
+  F
+  N
+  D
+  Q1
+  T1
+  B1
+  R1
+  R
+  L1
+  J1
+  W
+  M
+  I
+  B
+  S1
+  N1
+  C1
+  J
+  T
+  F1
+  Z
+  Y1
+  K
+  L
+  G
+  U
+  D1
+  V
+  K1
+  X1
+  W1
+  G1
+  X
+  O1
+  Y
+  M1
+  E
+  H1
+  P1
+  U1
+  I1)
+        (let ((a!1 (= Z1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) V1)
+                             ((_ extract 31 0) H)))))
+      (a!2 (= A2 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) O))))))
+  (and a!1
+       (not (= ((_ extract 31 0) O) #x00000002))
+       (= ((_ extract 31 0) R1) #x00000001)
+       a!2))
+      )
+      (|p$fibonacci_4196516::75|
+  S
+  A2
+  C
+  Q
+  E1
+  A1
+  Z1
+  P
+  A
+  F
+  N
+  D
+  Q1
+  T1
+  B1
+  R
+  L1
+  J1
+  W
+  M
+  I
+  B
+  S1
+  N1
+  C1
+  J
+  T
+  F1
+  Z
+  Y1
+  K
+  L
+  G
+  U
+  D1
+  V
+  K1
+  X1
+  W1
+  G1
+  X
+  O1
+  Y
+  M1
+  E
+  H1
+  P1
+  U1
+  I1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 32)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::66|
+  Z
+  I
+  D
+  U1
+  R
+  E1
+  Y
+  V
+  O
+  A
+  X1
+  U
+  E
+  P
+  T1
+  H1
+  W
+  F1
+  N1
+  G
+  T
+  L
+  B
+  X
+  Q1
+  H
+  M
+  C
+  K1
+  Q
+  Z1
+  J
+  S
+  G1
+  V1
+  I1
+  A1
+  O1
+  Y1
+  W1
+  J1
+  B1
+  R1
+  C1
+  P1
+  F
+  M1
+  S1
+  D1
+  L1)
+        (let ((a!1 (= N
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) Y) ((_ extract 31 0) O)))))
+      (a!2 (= K (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) I))))))
+  (and a!1 (not (= ((_ extract 31 0) I) #x00000002)) a!2))
+      )
+      (|p$fibonacci_4196516::75|
+  Z
+  K
+  D
+  U1
+  R
+  E1
+  N
+  V
+  A
+  X1
+  U
+  E
+  P
+  T1
+  H1
+  W
+  F1
+  N1
+  G
+  T
+  L
+  B
+  X
+  Q1
+  H
+  M
+  C
+  K1
+  Q
+  Z1
+  J
+  S
+  G1
+  V1
+  I1
+  A1
+  O1
+  Y1
+  W1
+  J1
+  B1
+  R1
+  C1
+  P1
+  F
+  M1
+  S1
+  D1
+  L1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 32)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::62|
+  U
+  C
+  J
+  S
+  A1
+  T
+  Q
+  A
+  L1
+  N
+  D
+  F
+  R1
+  B1
+  R
+  N1
+  I1
+  P
+  M
+  G
+  B
+  K
+  O1
+  G1
+  H
+  O
+  E1
+  X1
+  V1
+  U1
+  L
+  W1
+  I
+  C1
+  V
+  K1
+  T1
+  S1
+  D1
+  W
+  P1
+  X
+  M1
+  E
+  H1
+  Q1
+  J1
+  F1)
+        (let ((a!1 (= Y (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) S)))))
+      (a!2 (= Z
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) L1) ((_ extract 31 0) T))))))
+  (and a!1 (not (= ((_ extract 31 0) S) #x00000002)) a!2))
+      )
+      (|p$fibonacci_4196516::77|
+  U
+  C
+  J
+  Y
+  A1
+  Q
+  A
+  Z
+  N
+  D
+  F
+  R1
+  B1
+  R
+  N1
+  I1
+  P
+  M
+  G
+  B
+  K
+  O1
+  G1
+  H
+  O
+  E1
+  X1
+  V1
+  U1
+  L
+  W1
+  I
+  C1
+  V
+  K1
+  T1
+  S1
+  D1
+  W
+  P1
+  X
+  M1
+  E
+  H1
+  Q1
+  J1
+  F1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 32)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::77|
+  S
+  C
+  O1
+  P1
+  W
+  Q
+  A
+  M
+  P
+  D
+  J
+  Q1
+  Y
+  R
+  I1
+  F1
+  L
+  O
+  G
+  B
+  F
+  L1
+  R1
+  H
+  K
+  C1
+  G1
+  U1
+  J1
+  N
+  I
+  Z
+  A1
+  T
+  H1
+  T1
+  S1
+  B1
+  U
+  M1
+  V
+  K1
+  E
+  E1
+  N1
+  X
+  D1)
+        (let ((a!1 (= V1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) Z)))))
+      (a!2 (= W1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) I)
+                             ((_ extract 31 0) M))))))
+  (and a!1
+       (not (= ((_ extract 31 0) Z) #x00000002))
+       (= ((_ extract 31 0) P1) #x00000001)
+       a!2))
+      )
+      (|p$fibonacci_4196516::79|
+  S
+  C
+  O1
+  W
+  Q
+  A
+  P
+  D
+  J
+  Q1
+  Y
+  R
+  I1
+  F1
+  L
+  O
+  G
+  B
+  F
+  L1
+  R1
+  H
+  K
+  C1
+  G1
+  U1
+  J1
+  N
+  W1
+  V1
+  A1
+  T
+  H1
+  T1
+  S1
+  B1
+  U
+  M1
+  V
+  K1
+  E
+  E1
+  N1
+  X
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 32)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::58|
+  U
+  D
+  S1
+  Z
+  R
+  B
+  Q
+  N
+  E
+  J
+  Q1
+  A1
+  S
+  A
+  I1
+  P
+  M
+  H
+  C
+  O
+  M1
+  O1
+  I
+  V
+  F1
+  G
+  U1
+  K
+  L
+  D1
+  J1
+  C1
+  W
+  K1
+  T1
+  B1
+  E1
+  X
+  N1
+  Y
+  L1
+  F
+  H1
+  P1
+  V1
+  G1)
+        (let ((a!1 (= R1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) D1) ((_ extract 31 0) Q)))))
+      (a!2 (= T (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) J1))))))
+  (and a!1 (not (= ((_ extract 31 0) J1) #x00000002)) a!2))
+      )
+      (|p$fibonacci_4196516::79|
+  U
+  D
+  S1
+  Z
+  R
+  B
+  N
+  E
+  J
+  Q1
+  A1
+  S
+  A
+  I1
+  P
+  M
+  H
+  C
+  O
+  M1
+  O1
+  I
+  V
+  F1
+  G
+  U1
+  K
+  L
+  R1
+  T
+  C1
+  W
+  K1
+  T1
+  B1
+  E1
+  X
+  N1
+  Y
+  L1
+  F
+  H1
+  P1
+  V1
+  G1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 32)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::79|
+  P
+  C
+  O1
+  V
+  M
+  A
+  L
+  D
+  S
+  N1
+  W
+  N
+  I
+  G1
+  H1
+  K
+  F
+  B
+  B1
+  K1
+  U
+  G
+  Y
+  C1
+  Q1
+  S1
+  H
+  J
+  D1
+  X
+  Z
+  Q
+  I1
+  R1
+  P1
+  A1
+  R
+  L1
+  T
+  J1
+  E
+  E1
+  M1
+  O
+  F1)
+        (let ((a!1 (= T1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) H)))))
+      (a!2 (= U1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) Q1)
+                             ((_ extract 31 0) D1))))))
+  (and a!1
+       (not (= ((_ extract 31 0) H) #x00000002))
+       (= ((_ extract 31 0) X) #x00000001)
+       a!2))
+      )
+      (|p$fibonacci_4196516::81|
+  P
+  C
+  O1
+  V
+  M
+  A
+  L
+  D
+  S
+  N1
+  W
+  N
+  I
+  G1
+  H1
+  K
+  F
+  B
+  B1
+  K1
+  U
+  G
+  Y
+  C1
+  U1
+  S1
+  T1
+  J
+  Z
+  Q
+  I1
+  R1
+  P1
+  A1
+  R
+  L1
+  T
+  J1
+  E
+  E1
+  M1
+  O
+  F1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 32)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::77|
+  S
+  C
+  O1
+  P1
+  W
+  Q
+  A
+  M
+  P
+  D
+  J
+  Q1
+  Y
+  R
+  I1
+  F1
+  L
+  O
+  G
+  B
+  F
+  L1
+  R1
+  H
+  K
+  C1
+  G1
+  U1
+  J1
+  N
+  I
+  Z
+  A1
+  T
+  H1
+  T1
+  S1
+  B1
+  U
+  M1
+  V
+  K1
+  E
+  E1
+  N1
+  X
+  D1)
+        (let ((a!1 (= V1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) I)
+                             ((_ extract 31 0) M))))))
+  (and (= ((_ extract 31 0) Z) #x00000002)
+       (= ((_ extract 31 0) P1) #x00000001)
+       a!1))
+      )
+      (|p$fibonacci_4196516::54|
+  S
+  C
+  O1
+  W
+  Q
+  A
+  P
+  D
+  J
+  Q1
+  Y
+  R
+  I1
+  F1
+  L
+  O
+  G
+  B
+  F
+  L1
+  R1
+  H
+  K
+  C1
+  G1
+  U1
+  J1
+  N
+  V1
+  A1
+  T
+  H1
+  T1
+  S1
+  B1
+  U
+  M1
+  V
+  K1
+  E
+  E1
+  N1
+  X
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::83|
+  R
+  D
+  T
+  X
+  P
+  A
+  N
+  E
+  B
+  M1
+  Z
+  Q
+  K
+  F1
+  G
+  M
+  H
+  C
+  Y
+  I1
+  O
+  I
+  S
+  C1
+  J1
+  Q1
+  J
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  F
+  E1
+  L1
+  N1
+  D1)
+        (let ((a!1 (= S1 (concat #x00000000 (bvadd #x00000001 ((_ extract 31 0) O)))))
+      (a!2 (= R1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) K) ((_ extract 31 0) S1)))))
+      (a!3 (= T1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) Y))))))
+  (and a!1
+       a!2
+       (= ((_ extract 31 0) Y) #x00000002)
+       (= ((_ extract 31 0) S) #x00000001)
+       a!3))
+      )
+      (|p$fibonacci_4196516::35|
+  R
+  D
+  T
+  X
+  P
+  A
+  N
+  E
+  B
+  M1
+  Z
+  Q
+  R1
+  F1
+  G
+  M
+  H
+  C
+  T1
+  I1
+  S1
+  I
+  S
+  C1
+  J1
+  Q1
+  J
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  F
+  E1
+  L1
+  N1
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 32)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::75|
+  R
+  V
+  C
+  S1
+  Z
+  W
+  A1
+  P
+  A
+  I1
+  L
+  D
+  O1
+  R1
+  X
+  Q
+  Y
+  H1
+  I
+  K
+  G
+  B
+  M
+  N1
+  L1
+  H
+  F
+  C1
+  B1
+  W1
+  K1
+  J
+  U1
+  O
+  D1
+  S
+  J1
+  V1
+  T1
+  E1
+  T
+  P1
+  U
+  M1
+  E
+  F1
+  Q1
+  N
+  G1)
+        (let ((a!1 (= X1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) Z)))))
+      (a!2 (= Y1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) I1)
+                             ((_ extract 31 0) A1))))))
+  (and a!1
+       (not (= ((_ extract 31 0) Z) #x00000002))
+       (= ((_ extract 31 0) V) #x00000001)
+       a!2))
+      )
+      (|p$fibonacci_4196516::77|
+  R
+  C
+  S1
+  X1
+  W
+  P
+  A
+  Y1
+  L
+  D
+  O1
+  R1
+  X
+  Q
+  Y
+  H1
+  I
+  K
+  G
+  B
+  M
+  N1
+  L1
+  H
+  F
+  C1
+  B1
+  W1
+  K1
+  J
+  U1
+  O
+  D1
+  S
+  J1
+  V1
+  T1
+  E1
+  T
+  P1
+  U
+  M1
+  E
+  F1
+  Q1
+  N
+  G1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 32)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::50|
+  Q
+  C
+  J
+  X
+  O
+  A
+  N
+  D
+  H1
+  O1
+  Y
+  P
+  R1
+  G1
+  D1
+  M
+  H
+  B
+  G
+  L1
+  P1
+  I
+  T
+  C1
+  I1
+  S1
+  R
+  L
+  A1
+  S
+  J1
+  Q1
+  Z
+  B1
+  U
+  M1
+  W
+  K1
+  F
+  E1
+  N1
+  E
+  F1)
+        (let ((a!1 (= K
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) P1) ((_ extract 31 0) I1)))))
+      (a!2 (= V (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) T))))))
+  (and a!1 (not (= ((_ extract 31 0) T) #x00000002)) a!2))
+      )
+      (|p$fibonacci_4196516::83|
+  Q
+  C
+  J
+  X
+  O
+  A
+  N
+  D
+  H1
+  O1
+  Y
+  P
+  R1
+  G1
+  D1
+  M
+  H
+  B
+  G
+  L1
+  K
+  I
+  V
+  C1
+  I1
+  S1
+  R
+  L
+  A1
+  S
+  J1
+  Q1
+  Z
+  B1
+  U
+  M1
+  W
+  K1
+  F
+  E1
+  N1
+  E
+  F1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 32)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::46|
+  Q
+  C
+  Z
+  X
+  N
+  A
+  L
+  D
+  F
+  O1
+  Y
+  O
+  M
+  G1
+  W
+  K
+  G
+  B
+  I1
+  L1
+  V
+  H
+  P
+  D1
+  J1
+  S1
+  I
+  J
+  B1
+  R
+  H1
+  R1
+  Q1
+  C1
+  S
+  M1
+  U
+  K1
+  E
+  F1
+  N1
+  A1
+  E1)
+        (let ((a!1 (= P1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) M) ((_ extract 31 0) V)))))
+      (a!2 (= T (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) I1))))))
+  (and a!1 (= ((_ extract 31 0) I1) #x00000002) a!2))
+      )
+      (|p$fibonacci_4196516::35|
+  Q
+  C
+  Z
+  X
+  N
+  A
+  L
+  D
+  F
+  O1
+  Y
+  O
+  P1
+  G1
+  W
+  K
+  G
+  B
+  T
+  L1
+  V
+  H
+  P
+  D1
+  J1
+  S1
+  I
+  J
+  B1
+  R
+  H1
+  R1
+  Q1
+  C1
+  S
+  M1
+  U
+  K1
+  E
+  F1
+  N1
+  A1
+  E1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 32)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::50|
+  Q
+  C
+  J
+  X
+  O
+  A
+  N
+  D
+  H1
+  O1
+  Y
+  P
+  R1
+  G1
+  D1
+  M
+  H
+  B
+  G
+  L1
+  P1
+  I
+  T
+  C1
+  I1
+  S1
+  R
+  L
+  A1
+  S
+  J1
+  Q1
+  Z
+  B1
+  U
+  M1
+  W
+  K1
+  F
+  E1
+  N1
+  E
+  F1)
+        (let ((a!1 (= K
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) P1) ((_ extract 31 0) I1)))))
+      (a!2 (= V (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) T))))))
+  (and a!1 (= ((_ extract 31 0) T) #x00000002) a!2))
+      )
+      (|p$fibonacci_4196516::46|
+  Q
+  C
+  J
+  X
+  O
+  A
+  N
+  D
+  H1
+  O1
+  Y
+  P
+  R1
+  G1
+  D1
+  M
+  H
+  B
+  G
+  L1
+  K
+  I
+  V
+  C1
+  I1
+  S1
+  R
+  L
+  A1
+  S
+  J1
+  Q1
+  Z
+  B1
+  U
+  M1
+  W
+  K1
+  F
+  E1
+  N1
+  E
+  F1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 32)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::79|
+  P
+  C
+  O1
+  V
+  M
+  A
+  L
+  D
+  S
+  N1
+  W
+  N
+  I
+  G1
+  H1
+  K
+  F
+  B
+  B1
+  K1
+  U
+  G
+  Y
+  C1
+  Q1
+  S1
+  H
+  J
+  D1
+  X
+  Z
+  Q
+  I1
+  R1
+  P1
+  A1
+  R
+  L1
+  T
+  J1
+  E
+  E1
+  M1
+  O
+  F1)
+        (let ((a!1 (= T1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) H)))))
+      (a!2 (= U1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) Q1)
+                             ((_ extract 31 0) D1))))))
+  (and a!1
+       (= ((_ extract 31 0) H) #x00000002)
+       (= ((_ extract 31 0) X) #x00000001)
+       a!2))
+      )
+      (|p$fibonacci_4196516::50|
+  P
+  C
+  O1
+  V
+  M
+  A
+  L
+  D
+  S
+  N1
+  W
+  N
+  I
+  G1
+  H1
+  K
+  F
+  B
+  B1
+  K1
+  U
+  G
+  Y
+  C1
+  U1
+  S1
+  T1
+  J
+  Z
+  Q
+  I1
+  R1
+  P1
+  A1
+  R
+  L1
+  T
+  J1
+  E
+  E1
+  M1
+  O
+  F1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 32)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::54|
+  Q
+  C
+  T1
+  W
+  N
+  A
+  L
+  D
+  U
+  M1
+  X
+  O
+  G1
+  D1
+  P1
+  K
+  H
+  B
+  P
+  J1
+  N1
+  I
+  G
+  A1
+  E
+  S1
+  V
+  J
+  H1
+  Y
+  R
+  E1
+  R1
+  Q1
+  Z
+  S
+  K1
+  T
+  I1
+  F
+  C1
+  L1
+  M
+  B1)
+        (let ((a!1 (= F1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) E) ((_ extract 31 0) H1)))))
+      (a!2 (= O1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) V))))))
+  (and a!1 (= ((_ extract 31 0) V) #x00000002) a!2))
+      )
+      (|p$fibonacci_4196516::50|
+  Q
+  C
+  T1
+  W
+  N
+  A
+  L
+  D
+  U
+  M1
+  X
+  O
+  G1
+  D1
+  P1
+  K
+  H
+  B
+  P
+  J1
+  N1
+  I
+  G
+  A1
+  F1
+  S1
+  O1
+  J
+  Y
+  R
+  E1
+  R1
+  Q1
+  Z
+  S
+  K1
+  T
+  I1
+  F
+  C1
+  L1
+  M
+  B1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 32)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) (A2 (_ BitVec 64)) (B2 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::70|
+  Z
+  M
+  C
+  V
+  E1
+  F1
+  U
+  W
+  Z1
+  A
+  L
+  R
+  R1
+  D
+  H
+  V1
+  N
+  G1
+  S
+  X
+  Y
+  N1
+  O1
+  Q
+  J
+  B
+  I
+  S1
+  H1
+  K
+  A1
+  K1
+  O
+  A2
+  T
+  P
+  W1
+  G
+  I1
+  B1
+  P1
+  Y1
+  X1
+  J1
+  C1
+  T1
+  D1
+  Q1
+  E
+  M1
+  U1
+  F
+  L1)
+        (let ((a!1 (= B2
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) Z1)
+                             ((_ extract 31 0) R1))))))
+  (and (= ((_ extract 31 0) N) #x00000001)
+       (= ((_ extract 31 0) S) #x00000002)
+       a!1))
+      )
+      (|p$fibonacci_4196516::66|
+  Z
+  M
+  C
+  V
+  E1
+  F1
+  U
+  W
+  B2
+  A
+  L
+  R
+  D
+  H
+  V1
+  G1
+  X
+  Y
+  N1
+  O1
+  Q
+  J
+  B
+  I
+  S1
+  H1
+  K
+  A1
+  K1
+  O
+  A2
+  T
+  P
+  W1
+  G
+  I1
+  B1
+  P1
+  Y1
+  X1
+  J1
+  C1
+  T1
+  D1
+  Q1
+  E
+  M1
+  U1
+  F
+  L1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 32)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::66|
+  Y
+  I
+  D
+  T1
+  Q
+  D1
+  X
+  U
+  N
+  A
+  W1
+  T
+  E
+  O
+  S1
+  G1
+  V
+  E1
+  M1
+  G
+  S
+  K
+  B
+  W
+  P1
+  H
+  L
+  C
+  J1
+  P
+  Y1
+  J
+  R
+  F1
+  U1
+  H1
+  Z
+  N1
+  X1
+  V1
+  I1
+  A1
+  Q1
+  B1
+  O1
+  F
+  L1
+  R1
+  C1
+  K1)
+        (let ((a!1 (= M
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) X) ((_ extract 31 0) N))))))
+  (and (= ((_ extract 31 0) I) #x00000002) a!1))
+      )
+      (|p$fibonacci_4196516::62|
+  Y
+  D
+  T1
+  Q
+  D1
+  M
+  U
+  A
+  W1
+  T
+  E
+  O
+  S1
+  G1
+  V
+  E1
+  M1
+  G
+  S
+  K
+  B
+  W
+  P1
+  H
+  L
+  C
+  J1
+  P
+  Y1
+  J
+  R
+  F1
+  U1
+  H1
+  Z
+  N1
+  X1
+  V1
+  I1
+  A1
+  Q1
+  B1
+  O1
+  F
+  L1
+  R1
+  C1
+  K1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 32)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::73|
+  S
+  O
+  C
+  Q
+  E1
+  A1
+  V1
+  P
+  H
+  A
+  F
+  N
+  D
+  Q1
+  T1
+  B1
+  R1
+  R
+  L1
+  J1
+  W
+  M
+  I
+  B
+  S1
+  N1
+  C1
+  J
+  T
+  F1
+  Z
+  Y1
+  K
+  L
+  G
+  U
+  D1
+  V
+  K1
+  X1
+  W1
+  G1
+  X
+  O1
+  Y
+  M1
+  E
+  H1
+  P1
+  U1
+  I1)
+        (let ((a!1 (= Z1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) V1)
+                             ((_ extract 31 0) H))))))
+  (and (= ((_ extract 31 0) O) #x00000002)
+       (= ((_ extract 31 0) R1) #x00000001)
+       a!1))
+      )
+      (|p$fibonacci_4196516::62|
+  S
+  C
+  Q
+  E1
+  A1
+  Z1
+  P
+  A
+  F
+  N
+  D
+  Q1
+  T1
+  B1
+  R
+  L1
+  J1
+  W
+  M
+  I
+  B
+  S1
+  N1
+  C1
+  J
+  T
+  F1
+  Z
+  Y1
+  K
+  L
+  G
+  U
+  D1
+  V
+  K1
+  X1
+  W1
+  G1
+  X
+  O1
+  Y
+  M1
+  E
+  H1
+  P1
+  U1
+  I1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 32)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::62|
+  U
+  C
+  J
+  S
+  Z
+  T
+  Q
+  A
+  K1
+  N
+  D
+  F
+  Q1
+  A1
+  R
+  M1
+  H1
+  P
+  M
+  G
+  B
+  K
+  N1
+  F1
+  H
+  O
+  D1
+  W1
+  U1
+  T1
+  L
+  V1
+  I
+  B1
+  V
+  J1
+  S1
+  R1
+  C1
+  W
+  O1
+  X
+  L1
+  E
+  G1
+  P1
+  I1
+  E1)
+        (let ((a!1 (= Y
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) K1) ((_ extract 31 0) T))))))
+  (and (= ((_ extract 31 0) S) #x00000002) a!1))
+      )
+      (|p$fibonacci_4196516::58|
+  U
+  C
+  J
+  Z
+  Q
+  A
+  Y
+  N
+  D
+  F
+  Q1
+  A1
+  R
+  M1
+  H1
+  P
+  M
+  G
+  B
+  K
+  N1
+  F1
+  H
+  O
+  D1
+  W1
+  U1
+  T1
+  L
+  V1
+  I
+  B1
+  V
+  J1
+  S1
+  R1
+  C1
+  W
+  O1
+  X
+  L1
+  E
+  G1
+  P1
+  I1
+  E1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 32)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::75|
+  R
+  V
+  C
+  S1
+  Z
+  W
+  A1
+  P
+  A
+  I1
+  L
+  D
+  O1
+  R1
+  X
+  Q
+  Y
+  H1
+  I
+  K
+  G
+  B
+  M
+  N1
+  L1
+  H
+  F
+  C1
+  B1
+  W1
+  K1
+  J
+  U1
+  O
+  D1
+  S
+  J1
+  V1
+  T1
+  E1
+  T
+  P1
+  U
+  M1
+  E
+  F1
+  Q1
+  N
+  G1)
+        (let ((a!1 (= X1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) I1)
+                             ((_ extract 31 0) A1))))))
+  (and (= ((_ extract 31 0) Z) #x00000002)
+       (= ((_ extract 31 0) V) #x00000001)
+       a!1))
+      )
+      (|p$fibonacci_4196516::58|
+  R
+  C
+  S1
+  W
+  P
+  A
+  X1
+  L
+  D
+  O1
+  R1
+  X
+  Q
+  Y
+  H1
+  I
+  K
+  G
+  B
+  M
+  N1
+  L1
+  H
+  F
+  C1
+  B1
+  W1
+  K1
+  J
+  U1
+  O
+  D1
+  S
+  J1
+  V1
+  T1
+  E1
+  T
+  P1
+  U
+  M1
+  E
+  F1
+  Q1
+  N
+  G1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 32)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::58|
+  T
+  D
+  R1
+  Y
+  R
+  B
+  Q
+  N
+  E
+  J
+  P1
+  Z
+  S
+  A
+  H1
+  P
+  M
+  H
+  C
+  O
+  L1
+  N1
+  I
+  U
+  E1
+  G
+  T1
+  K
+  L
+  C1
+  I1
+  B1
+  V
+  J1
+  S1
+  A1
+  D1
+  W
+  M1
+  X
+  K1
+  F
+  G1
+  O1
+  U1
+  F1)
+        (let ((a!1 (= Q1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) C1) ((_ extract 31 0) Q))))))
+  (and (= ((_ extract 31 0) I1) #x00000002) a!1))
+      )
+      (|p$fibonacci_4196516::54|
+  T
+  D
+  R1
+  Y
+  R
+  B
+  N
+  E
+  J
+  P1
+  Z
+  S
+  A
+  H1
+  P
+  M
+  H
+  C
+  O
+  L1
+  N1
+  I
+  U
+  E1
+  G
+  T1
+  K
+  L
+  Q1
+  B1
+  V
+  J1
+  S1
+  A1
+  D1
+  W
+  M1
+  X
+  K1
+  F
+  G1
+  O1
+  U1
+  F1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 32)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::35|
+  T
+  D
+  Q1
+  Z
+  Q
+  A
+  P
+  E
+  I
+  O1
+  A1
+  R
+  I1
+  H1
+  S
+  O
+  J
+  B
+  L
+  L1
+  B1
+  K
+  F
+  E1
+  V
+  S1
+  Y
+  N
+  C1
+  U
+  J1
+  R1
+  P1
+  D1
+  W
+  M1
+  X
+  K1
+  G
+  G1
+  N1
+  C
+  F1)
+        (let ((a!1 (= H (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) I)))))
+      (a!2 (= M
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) Q1) ((_ extract 31 0) I1))))))
+  (and a!1 (not (= ((_ extract 31 0) H) W)) a!2))
+      )
+      (|p$fibonacci_4196516::87|
+  T
+  R1
+  D
+  M
+  J1
+  Z
+  U
+  Q
+  C1
+  A
+  N1
+  P
+  G1
+  E
+  H
+  O1
+  A1
+  R
+  H1
+  S
+  O
+  J
+  B
+  L
+  L1
+  B1
+  K
+  F
+  E1
+  V
+  S1
+  Y
+  N
+  P1
+  D1
+  W
+  M1
+  X
+  K1
+  G
+  C
+  F1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 32)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::85|
+  Q
+  C
+  F
+  W
+  N
+  A
+  K
+  D
+  M
+  N1
+  X
+  P
+  O
+  G1
+  Y
+  J
+  G
+  B
+  L
+  J1
+  M1
+  H
+  A1
+  C1
+  R
+  Q1
+  V
+  I
+  Z
+  S
+  H1
+  P1
+  O1
+  B1
+  T
+  K1
+  U
+  I1
+  E
+  E1
+  L1
+  F1
+  D1)
+        (let ((a!1 (= R1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) F)
+                             ((_ extract 31 0) O)))))
+      (a!2 (= S1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) M))))))
+  (and a!1
+       (= ((_ extract 31 0) L) #x00000001)
+       (not (= ((_ extract 31 0) S1) T))
+       a!2))
+      )
+      (|p$fibonacci_4196516::87|
+  Q
+  P1
+  C
+  R1
+  H1
+  W
+  S
+  N
+  Z
+  A
+  L1
+  K
+  E1
+  D
+  S1
+  N1
+  X
+  P
+  G1
+  Y
+  J
+  G
+  B
+  L
+  J1
+  M1
+  H
+  A1
+  C1
+  R
+  Q1
+  V
+  I
+  O1
+  B1
+  T
+  K1
+  U
+  I1
+  E
+  F1
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 32)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::46|
+  Q
+  C
+  Z
+  X
+  N
+  A
+  L
+  D
+  F
+  O1
+  Y
+  O
+  M
+  G1
+  W
+  K
+  G
+  B
+  I1
+  L1
+  V
+  H
+  P
+  D1
+  J1
+  S1
+  I
+  J
+  B1
+  R
+  H1
+  R1
+  Q1
+  C1
+  S
+  M1
+  U
+  K1
+  E
+  F1
+  N1
+  A1
+  E1)
+        (let ((a!1 (= P1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) M) ((_ extract 31 0) V)))))
+      (a!2 (= T (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) I1))))))
+  (and a!1 (not (= ((_ extract 31 0) I1) #x00000002)) a!2))
+      )
+      (|p$fibonacci_4196516::85|
+  Q
+  C
+  Z
+  X
+  N
+  A
+  L
+  D
+  F
+  O1
+  Y
+  O
+  P1
+  G1
+  W
+  K
+  G
+  B
+  T
+  L1
+  V
+  H
+  P
+  D1
+  J1
+  S1
+  I
+  J
+  B1
+  R
+  H1
+  R1
+  Q1
+  C1
+  S
+  M1
+  U
+  K1
+  E
+  F1
+  N1
+  A1
+  E1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::83|
+  R
+  D
+  T
+  X
+  P
+  A
+  N
+  E
+  B
+  M1
+  Z
+  Q
+  K
+  F1
+  G
+  M
+  H
+  C
+  Y
+  I1
+  O
+  I
+  S
+  C1
+  J1
+  Q1
+  J
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  F
+  E1
+  L1
+  N1
+  D1)
+        (let ((a!1 (= S1 (concat #x00000000 (bvadd #x00000001 ((_ extract 31 0) O)))))
+      (a!2 (= R1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) K) ((_ extract 31 0) S1)))))
+      (a!3 (= T1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) Y))))))
+  (and a!1
+       a!2
+       (not (= ((_ extract 31 0) Y) #x00000002))
+       (= ((_ extract 31 0) S) #x00000001)
+       a!3))
+      )
+      (|p$fibonacci_4196516::85|
+  R
+  D
+  T
+  X
+  P
+  A
+  N
+  E
+  B
+  M1
+  Z
+  Q
+  R1
+  F1
+  G
+  M
+  H
+  C
+  T1
+  I1
+  S1
+  I
+  S
+  C1
+  J1
+  Q1
+  J
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  F
+  E1
+  L1
+  N1
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (v_20 (_ BitVec 64)) (v_21 (_ BitVec 64)) (v_22 (_ BitVec 64)) (v_23 (_ BitVec 64)) (v_24 (_ BitVec 64)) (v_25 (_ BitVec 64)) (v_26 (_ BitVec 64)) (v_27 (_ BitVec 64)) (v_28 (_ BitVec 64)) (v_29 (_ BitVec 64)) (v_30 (_ BitVec 64)) (v_31 (_ BitVec 64)) (v_32 (_ BitVec 64)) (v_33 (_ BitVec 64)) (v_34 (_ BitVec 64)) (v_35 (_ BitVec 64)) (v_36 (_ BitVec 64)) (v_37 (_ BitVec 64)) (v_38 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::0| L C M J A I D S N K Q H F B R E O T G P)
+        (and (bvsle ((_ extract 31 0) L) #x00000000)
+     (= #x0000000000000000 v_20)
+     (= v_21 C)
+     (= #x0000000000000000 v_22)
+     (= v_23 M)
+     (= v_24 J)
+     (= v_25 A)
+     (= v_26 I)
+     (= v_27 D)
+     (= v_28 S)
+     (= v_29 N)
+     (= v_30 K)
+     (= v_31 Q)
+     (= v_32 H)
+     (= v_33 R)
+     (= v_34 E)
+     (= v_35 O)
+     (= v_36 T)
+     (= v_37 G)
+     (= v_38 P))
+      )
+      (|p$fibonacci_4196516::5|
+  v_20
+  L
+  C
+  v_21
+  v_22
+  M
+  v_23
+  J
+  v_24
+  A
+  v_25
+  I
+  v_26
+  D
+  v_27
+  S
+  v_28
+  N
+  v_29
+  K
+  v_30
+  Q
+  v_31
+  H
+  v_32
+  F
+  B
+  R
+  v_33
+  E
+  v_34
+  O
+  v_35
+  T
+  v_36
+  G
+  v_37
+  P
+  v_38)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::35|
+  S
+  D
+  P1
+  Y
+  P
+  A
+  O
+  E
+  H
+  N1
+  Z
+  Q
+  H1
+  G1
+  R
+  N
+  I
+  B
+  K
+  K1
+  A1
+  J
+  F
+  D1
+  U
+  R1
+  X
+  M
+  B1
+  T
+  I1
+  Q1
+  O1
+  C1
+  V
+  L1
+  W
+  J1
+  G
+  F1
+  M1
+  C
+  E1)
+        (let ((a!1 (= L
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) P1) ((_ extract 31 0) H1))))))
+  (and (= S1 (concat #x00000000 ((_ extract 31 0) L)))
+       (= ((_ extract 31 0) H) (bvadd #x00000002 V))
+       a!1))
+      )
+      (|p$fibonacci_4196516::5|
+  S1
+  S
+  Q1
+  D
+  L
+  I1
+  Y
+  T
+  P
+  B1
+  A
+  M1
+  O
+  F1
+  E
+  G
+  N1
+  J1
+  Z
+  W
+  Q
+  L1
+  G1
+  C1
+  N
+  I
+  B
+  K
+  K1
+  A1
+  J
+  F
+  D1
+  U
+  R1
+  X
+  M
+  C
+  E1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 32)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::85|
+  Q
+  C
+  F
+  W
+  N
+  A
+  K
+  D
+  M
+  N1
+  X
+  P
+  O
+  G1
+  Y
+  J
+  G
+  B
+  L
+  J1
+  M1
+  H
+  A1
+  C1
+  R
+  Q1
+  V
+  I
+  Z
+  S
+  H1
+  P1
+  O1
+  B1
+  T
+  K1
+  U
+  I1
+  E
+  E1
+  L1
+  F1
+  D1)
+        (let ((a!1 (= R1
+              (concat #x00000000
+                      (bvadd #x00000001
+                             ((_ extract 31 0) F)
+                             ((_ extract 31 0) O))))))
+  (and a!1
+       (= ((_ extract 31 0) M) (bvadd #x00000002 T))
+       (= ((_ extract 31 0) L) #x00000001)
+       (= S1 (concat #x00000000 ((_ extract 31 0) R1)))))
+      )
+      (|p$fibonacci_4196516::5|
+  S1
+  Q
+  P1
+  C
+  R1
+  H1
+  W
+  S
+  N
+  Z
+  A
+  L1
+  K
+  E1
+  D
+  E
+  N1
+  I1
+  X
+  U
+  P
+  K1
+  G1
+  B1
+  J
+  G
+  B
+  L
+  J1
+  M1
+  H
+  A1
+  C1
+  R
+  Q1
+  V
+  I
+  F1
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::81|
+  T
+  D
+  M1
+  X
+  P
+  A
+  N
+  E
+  R
+  N1
+  Z
+  S
+  Q
+  F1
+  O
+  M
+  I
+  B
+  K
+  J1
+  H
+  J
+  C
+  C1
+  F
+  Q1
+  I1
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  G
+  E1
+  L1
+  Y
+  D1)
+        (let ((a!1 (= S1 (concat #x00000000 (bvadd #xfffffffe ((_ extract 31 0) C)))))
+      (a!2 (= R1
+              (concat #x00000000
+                      (bvadd ((_ extract 31 0) H) ((_ extract 31 0) T1)))))
+      (a!3 (= T1 (concat #x00000000 (bvadd #x00000001 ((_ extract 31 0) F))))))
+  (and a!1
+       a!2
+       (not (= ((_ extract 31 0) C) #x00000002))
+       (= ((_ extract 31 0) I1) #x00000001)
+       a!3))
+      )
+      (|p$fibonacci_4196516::83|
+  T
+  D
+  M1
+  X
+  P
+  A
+  N
+  E
+  R
+  N1
+  Z
+  S
+  Q
+  F1
+  O
+  M
+  I
+  B
+  K
+  J1
+  R1
+  J
+  S1
+  C1
+  T1
+  Q1
+  I1
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  G
+  E1
+  L1
+  Y
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (v_44 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::83|
+  R
+  D
+  T
+  X
+  P
+  A
+  N
+  E
+  B
+  M1
+  Z
+  Q
+  K
+  F1
+  G
+  M
+  H
+  C
+  Y
+  I1
+  O
+  I
+  S
+  C1
+  J1
+  Q1
+  J
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  F
+  E1
+  L1
+  N1
+  D1)
+        (let ((a!1 (= R1 (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) S))))))
+  (and (not (= ((_ extract 31 0) S) #x00000001))
+       a!1
+       (= #x0000000000000000 v_44)))
+      )
+      (|p$fibonacci_4196516::81|
+  R
+  D
+  T
+  X
+  P
+  A
+  N
+  E
+  B
+  M1
+  Z
+  Q
+  K
+  F1
+  G
+  M
+  H
+  C
+  Y
+  I1
+  O
+  I
+  S
+  C1
+  v_44
+  Q1
+  R1
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  F
+  E1
+  L1
+  N1
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 32)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (v_44 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::85|
+  Q
+  C
+  F
+  W
+  N
+  A
+  K
+  D
+  M
+  N1
+  X
+  P
+  O
+  G1
+  Y
+  J
+  G
+  B
+  L
+  J1
+  M1
+  H
+  A1
+  C1
+  R
+  Q1
+  V
+  I
+  Z
+  S
+  H1
+  P1
+  O1
+  B1
+  T
+  K1
+  U
+  I1
+  E
+  E1
+  L1
+  F1
+  D1)
+        (let ((a!1 (= R1 (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) L))))))
+  (and (not (= ((_ extract 31 0) L) #x00000001))
+       a!1
+       (= #x0000000000000000 v_44)))
+      )
+      (|p$fibonacci_4196516::83|
+  Q
+  C
+  F
+  W
+  N
+  A
+  K
+  D
+  M
+  N1
+  X
+  P
+  O
+  G1
+  Y
+  J
+  G
+  B
+  L
+  J1
+  v_44
+  H
+  R1
+  C1
+  R
+  Q1
+  V
+  I
+  Z
+  S
+  H1
+  P1
+  O1
+  B1
+  T
+  K1
+  U
+  I1
+  E
+  E1
+  L1
+  F1
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (v_44 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::81|
+  T
+  D
+  M1
+  X
+  P
+  A
+  N
+  E
+  R
+  N1
+  Z
+  S
+  Q
+  F1
+  O
+  M
+  I
+  B
+  K
+  J1
+  H
+  J
+  C
+  C1
+  F
+  Q1
+  I1
+  L
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  G
+  E1
+  L1
+  Y
+  D1)
+        (let ((a!1 (= R1 (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) I1))))))
+  (and (not (= ((_ extract 31 0) I1) #x00000001))
+       a!1
+       (= #x0000000000000000 v_44)))
+      )
+      (|p$fibonacci_4196516::79|
+  T
+  D
+  M1
+  X
+  P
+  A
+  N
+  E
+  R
+  N1
+  Z
+  S
+  Q
+  F1
+  O
+  M
+  I
+  B
+  K
+  J1
+  H
+  J
+  C
+  C1
+  F
+  Q1
+  I1
+  L
+  v_44
+  R1
+  A1
+  U
+  G1
+  P1
+  O1
+  B1
+  V
+  K1
+  W
+  H1
+  G
+  E1
+  L1
+  Y
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (v_43 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::87|
+  T
+  F1
+  D
+  H1
+  N1
+  Y
+  X
+  Q
+  L
+  A
+  K
+  N
+  G
+  E
+  U
+  M1
+  Z
+  R
+  E1
+  C
+  M
+  I
+  B
+  H
+  J1
+  P
+  J
+  I1
+  B1
+  S
+  P1
+  K1
+  O
+  O1
+  A1
+  V
+  L1
+  W
+  G1
+  F
+  C1
+  D1)
+        (let ((a!1 (= Q1 (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) U))))))
+  (and (not (= ((_ extract 31 0) U) #x00000001))
+       a!1
+       (= #x0000000000000000 v_43)))
+      )
+      (|p$fibonacci_4196516::85|
+  T
+  D
+  H1
+  Y
+  Q
+  A
+  N
+  E
+  U
+  M1
+  Z
+  R
+  v_43
+  E1
+  C
+  M
+  I
+  B
+  Q1
+  J1
+  P
+  J
+  I1
+  B1
+  S
+  P1
+  K1
+  O
+  L
+  X
+  N1
+  F1
+  O1
+  A1
+  V
+  L1
+  W
+  G1
+  F
+  G
+  K
+  C1
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 32)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (v_50 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::75|
+  R
+  V
+  C
+  S1
+  Z
+  W
+  A1
+  P
+  A
+  I1
+  L
+  D
+  O1
+  R1
+  X
+  Q
+  Y
+  H1
+  I
+  K
+  G
+  B
+  M
+  N1
+  L1
+  H
+  F
+  C1
+  B1
+  W1
+  K1
+  J
+  U1
+  O
+  D1
+  S
+  J1
+  V1
+  T1
+  E1
+  T
+  P1
+  U
+  M1
+  E
+  F1
+  Q1
+  N
+  G1)
+        (let ((a!1 (= X1 (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) V))))))
+  (and (not (= ((_ extract 31 0) V) #x00000001))
+       a!1
+       (= #x0000000000000000 v_50)))
+      )
+      (|p$fibonacci_4196516::73|
+  R
+  V
+  C
+  S1
+  Z
+  W
+  A1
+  P
+  v_50
+  A
+  I1
+  L
+  D
+  O1
+  R1
+  X
+  X1
+  Q
+  Y
+  H1
+  I
+  K
+  G
+  B
+  M
+  N1
+  L1
+  H
+  F
+  C1
+  B1
+  W1
+  K1
+  J
+  U1
+  O
+  D1
+  S
+  J1
+  V1
+  T1
+  E1
+  T
+  P1
+  U
+  M1
+  E
+  F1
+  Q1
+  N
+  G1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 32)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (v_46 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::79|
+  P
+  C
+  O1
+  V
+  M
+  A
+  L
+  D
+  S
+  N1
+  W
+  N
+  I
+  G1
+  H1
+  K
+  F
+  B
+  B1
+  K1
+  U
+  G
+  Y
+  C1
+  Q1
+  S1
+  H
+  J
+  D1
+  X
+  Z
+  Q
+  I1
+  R1
+  P1
+  A1
+  R
+  L1
+  T
+  J1
+  E
+  E1
+  M1
+  O
+  F1)
+        (let ((a!1 (= T1 (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) X))))))
+  (and (not (= ((_ extract 31 0) X) #x00000001))
+       a!1
+       (= #x0000000000000000 v_46)))
+      )
+      (|p$fibonacci_4196516::77|
+  P
+  C
+  O1
+  T1
+  V
+  M
+  A
+  v_46
+  L
+  D
+  S
+  N1
+  W
+  N
+  I
+  G1
+  H1
+  K
+  F
+  B
+  B1
+  K1
+  U
+  G
+  Y
+  C1
+  Q1
+  S1
+  H
+  J
+  D1
+  X
+  Z
+  Q
+  I1
+  R1
+  P1
+  A1
+  R
+  L1
+  T
+  J1
+  E
+  E1
+  M1
+  O
+  F1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 32)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (v_48 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::77|
+  S
+  C
+  O1
+  P1
+  W
+  Q
+  A
+  M
+  P
+  D
+  J
+  Q1
+  Y
+  R
+  I1
+  F1
+  L
+  O
+  G
+  B
+  F
+  L1
+  R1
+  H
+  K
+  C1
+  G1
+  U1
+  J1
+  N
+  I
+  Z
+  A1
+  T
+  H1
+  T1
+  S1
+  B1
+  U
+  M1
+  V
+  K1
+  E
+  E1
+  N1
+  X
+  D1)
+        (let ((a!1 (= V1 (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) P1))))))
+  (and (not (= ((_ extract 31 0) P1) #x00000001))
+       a!1
+       (= #x0000000000000000 v_48)))
+      )
+      (|p$fibonacci_4196516::75|
+  S
+  V1
+  C
+  O1
+  P1
+  W
+  v_48
+  Q
+  A
+  M
+  P
+  D
+  J
+  Q1
+  Y
+  R
+  I1
+  F1
+  L
+  O
+  G
+  B
+  F
+  L1
+  R1
+  H
+  K
+  C1
+  G1
+  U1
+  J1
+  N
+  I
+  Z
+  A1
+  T
+  H1
+  T1
+  S1
+  B1
+  U
+  M1
+  V
+  K1
+  E
+  E1
+  N1
+  X
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 32)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) (S1 (_ BitVec 64)) (T1 (_ BitVec 64)) (U1 (_ BitVec 64)) (V1 (_ BitVec 64)) (W1 (_ BitVec 64)) (X1 (_ BitVec 64)) (Y1 (_ BitVec 64)) (Z1 (_ BitVec 64)) (v_52 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::73|
+  S
+  O
+  C
+  Q
+  E1
+  A1
+  V1
+  P
+  H
+  A
+  F
+  N
+  D
+  Q1
+  T1
+  B1
+  R1
+  R
+  L1
+  J1
+  W
+  M
+  I
+  B
+  S1
+  N1
+  C1
+  J
+  T
+  F1
+  Z
+  Y1
+  K
+  L
+  G
+  U
+  D1
+  V
+  K1
+  X1
+  W1
+  G1
+  X
+  O1
+  Y
+  M1
+  E
+  H1
+  P1
+  U1
+  I1)
+        (let ((a!1 (= Z1 (concat #x00000000 (bvadd #xffffffff ((_ extract 31 0) R1))))))
+  (and (not (= ((_ extract 31 0) R1) #x00000001))
+       a!1
+       (= #x0000000000000000 v_52)))
+      )
+      (|p$fibonacci_4196516::70|
+  S
+  O
+  C
+  Q
+  E1
+  A1
+  V1
+  P
+  H
+  A
+  F
+  N
+  v_52
+  D
+  Q1
+  T1
+  Z1
+  B1
+  R1
+  R
+  L1
+  J1
+  W
+  M
+  I
+  B
+  S1
+  N1
+  C1
+  J
+  T
+  F1
+  Z
+  Y1
+  K
+  L
+  G
+  U
+  D1
+  V
+  K1
+  X1
+  W1
+  G1
+  X
+  O1
+  Y
+  M1
+  E
+  H1
+  P1
+  U1
+  I1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (M1 (_ BitVec 64)) (N1 (_ BitVec 64)) (O1 (_ BitVec 64)) (P1 (_ BitVec 64)) (Q1 (_ BitVec 64)) (R1 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::87|
+  T
+  F1
+  D
+  H1
+  N1
+  Y
+  X
+  Q
+  L
+  A
+  K
+  N
+  G
+  E
+  U
+  M1
+  Z
+  R
+  E1
+  C
+  M
+  I
+  B
+  H
+  J1
+  P
+  J
+  I1
+  B1
+  S
+  P1
+  K1
+  O
+  O1
+  A1
+  V
+  L1
+  W
+  G1
+  F
+  C1
+  D1)
+        (let ((a!1 (= R1 (concat #x00000000 (bvadd #x00000001 ((_ extract 31 0) H1))))))
+  (and (= Q1 (concat #x00000000 ((_ extract 31 0) R1)))
+       (= ((_ extract 31 0) U) #x00000001)
+       a!1))
+      )
+      (|p$fibonacci_4196516::5|
+  Q1
+  T
+  F1
+  D
+  R1
+  N1
+  Y
+  X
+  Q
+  L
+  A
+  K
+  N
+  G
+  E
+  F
+  M1
+  G1
+  Z
+  W
+  R
+  L1
+  E1
+  A1
+  M
+  I
+  B
+  H
+  J1
+  P
+  J
+  I1
+  B1
+  S
+  P1
+  K1
+  O
+  C1
+  D1)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 32)) (W (_ BitVec 64)) (v_23 (_ BitVec 64)) (v_24 (_ BitVec 64)) (v_25 (_ BitVec 64)) (v_26 (_ BitVec 64)) (v_27 (_ BitVec 64)) (v_28 (_ BitVec 64)) (v_29 (_ BitVec 64)) (v_30 (_ BitVec 64)) (v_31 (_ BitVec 64)) (v_32 (_ BitVec 64)) (v_33 (_ BitVec 64)) (v_34 (_ BitVec 64)) (v_35 (_ BitVec 64)) (v_36 (_ BitVec 64)) (v_37 (_ BitVec 64)) (v_38 (_ BitVec 64)) (v_39 (_ BitVec 64)) (v_40 (_ BitVec 64)) (v_41 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::0| L C M J A I D S N K Q H F B R E O T G P)
+        (let ((a!1 (concat ((_ extract 31 1) (bvadd #xffffffff ((_ extract 31 0) L)))
+                   #b0)))
+  (and (= W (concat #x00000000 ((_ extract 31 0) L)))
+       (= U (bvadd #xffffffffffffff70 B))
+       (= V (bvadd #xfffffffe ((_ extract 31 0) L) (bvmul #xffffffff a!1)))
+       (not (bvsle ((_ extract 31 0) L) #x00000000))
+       (= v_23 C)
+       (= #x0000000000000000 v_24)
+       (= v_25 M)
+       (= v_26 J)
+       (= v_27 A)
+       (= v_28 I)
+       (= v_29 D)
+       (= v_30 R)
+       (= v_31 E)
+       (= v_32 O)
+       (= v_33 T)
+       (= v_34 G)
+       (= v_35 F)
+       (= v_36 H)
+       (= v_37 Q)
+       (= v_38 K)
+       (= v_39 N)
+       (= v_40 S)
+       (= v_41 P)))
+      )
+      (|p$fibonacci_4196516::87|
+  L
+  C
+  v_23
+  v_24
+  M
+  v_25
+  J
+  v_26
+  A
+  v_27
+  I
+  v_28
+  D
+  v_29
+  W
+  S
+  N
+  K
+  Q
+  U
+  H
+  F
+  B
+  R
+  v_30
+  E
+  v_31
+  O
+  v_32
+  T
+  v_33
+  G
+  v_34
+  v_35
+  v_36
+  V
+  v_37
+  v_38
+  v_39
+  v_40
+  P
+  v_41)
+    )
+  )
+)
+(assert
+  (forall ( (A (_ BitVec 64)) (B (_ BitVec 64)) (C (_ BitVec 64)) (D (_ BitVec 64)) (E (_ BitVec 64)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 64)) (I (_ BitVec 64)) (J (_ BitVec 64)) (K (_ BitVec 64)) (L (_ BitVec 64)) (M (_ BitVec 64)) (N (_ BitVec 64)) (O (_ BitVec 64)) (P (_ BitVec 64)) (Q (_ BitVec 64)) (R (_ BitVec 64)) (S (_ BitVec 64)) (T (_ BitVec 64)) (U (_ BitVec 64)) (V (_ BitVec 64)) (W (_ BitVec 64)) (X (_ BitVec 64)) (Y (_ BitVec 64)) (Z (_ BitVec 64)) (A1 (_ BitVec 64)) (B1 (_ BitVec 64)) (C1 (_ BitVec 64)) (D1 (_ BitVec 64)) (E1 (_ BitVec 64)) (F1 (_ BitVec 64)) (G1 (_ BitVec 64)) (H1 (_ BitVec 64)) (I1 (_ BitVec 64)) (J1 (_ BitVec 64)) (K1 (_ BitVec 64)) (L1 (_ BitVec 64)) (v_38 (_ BitVec 64)) (v_39 (_ BitVec 64)) ) 
+    (=>
+      (and
+        (|p$fibonacci_4196516::5|
+  G1
+  v_38
+  I
+  C
+  E
+  E1
+  S
+  X
+  P
+  O
+  A
+  D1
+  L
+  K1
+  D
+  R
+  H1
+  A1
+  T
+  C1
+  Q
+  U
+  B1
+  F
+  K
+  v_39
+  B
+  N
+  F1
+  M
+  H
+  G
+  Y
+  I1
+  J1
+  V
+  J
+  W
+  Z)
+        (and (= #x0000000000000009 v_38)
+     (= #x00000000004006d0 v_39)
+     (= B (bvadd #xfffffffffffffff0 L1))
+     (not (= ((_ extract 31 0) G1) #x00000022))
+     (= K (bvadd #xfffffffffffffff0 L1)))
+      )
+      false
+    )
+  )
+)
+
+(check-sat)
+(exit)

@@ -1,0 +1,7 @@
+format_version: '2.0'
+input_files: elevator_spec14_product23_true-unreach-call_true-termination.cil.-O2.smt2
+options:
+  language: SMT-LIB
+properties:
+- expected_verdict: true # placeholder
+  property_file: ../../../../properties/check-sat.prp

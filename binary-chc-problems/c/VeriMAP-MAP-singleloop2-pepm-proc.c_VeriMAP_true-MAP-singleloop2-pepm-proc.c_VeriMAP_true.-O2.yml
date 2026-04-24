@@ -1,7 +1,0 @@
-format_version: '2.0'
-input_files: VeriMAP-MAP-singleloop2-pepm-proc.c_VeriMAP_true-MAP-singleloop2-pepm-proc.c_VeriMAP_true.-O2.smt2
-options:
-  language: SMT-LIB
-properties:
-- expected_verdict: true
-  property_file: ../../properties/check-sat.prp

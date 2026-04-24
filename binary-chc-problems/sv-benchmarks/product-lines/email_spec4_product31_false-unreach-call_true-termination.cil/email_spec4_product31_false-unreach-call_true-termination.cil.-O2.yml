@@ -1,0 +1,7 @@
+format_version: '2.0'
+input_files: email_spec4_product31_false-unreach-call_true-termination.cil.-O2.smt2
+options:
+  language: SMT-LIB
+properties:
+- expected_verdict: true # placeholder
+  property_file: ../../../../properties/check-sat.prp

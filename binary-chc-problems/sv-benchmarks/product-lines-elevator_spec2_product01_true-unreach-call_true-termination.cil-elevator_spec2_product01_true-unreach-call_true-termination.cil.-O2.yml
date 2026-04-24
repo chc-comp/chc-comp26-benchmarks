@@ -1,7 +1,0 @@
-format_version: '2.0'
-input_files: product-lines-elevator_spec2_product01_true-unreach-call_true-termination.cil-elevator_spec2_product01_true-unreach-call_true-termination.cil.-O2.smt2
-options:
-  language: SMT-LIB
-properties:
-- expected_verdict: true
-  property_file: ../../properties/check-sat.prp
