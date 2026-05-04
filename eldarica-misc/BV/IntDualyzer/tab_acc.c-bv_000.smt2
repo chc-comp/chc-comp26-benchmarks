@@ -104,11 +104,11 @@
     (=>
       (and
         (main_s4 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z)
-        (let ((a!1 (not (= (bvsmod_i (bvadd #x00000008 Y) #x00000004) #x00000000))))
+        (let ((a!1 (not (= (bvsmod (bvadd #x00000008 Y) #x00000004) #x00000000))))
 (let ((a!2 (or a!1
                (bvsle T Y)
                (not (bvsle #x00000000 (bvadd #x00000008 Y)))
-               (not (= (bvsmod_i Y #x00000004) #x00000000))
+               (not (= (bvsmod Y #x00000004) #x00000000))
                (bvsle T (bvadd #x00000008 Y))
                (not (bvsle #x00000000 Y)))))
   (and (= Y L1)

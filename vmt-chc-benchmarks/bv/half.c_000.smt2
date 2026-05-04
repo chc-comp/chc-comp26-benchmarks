@@ -42,7 +42,7 @@
                 (= E D)
                 (= K J)
                 (bvsle H #x00000000)
-                (not (bvsle (bvsdiv_i L #x00000002) G))))
+                (not (bvsle (bvsdiv L #x00000002) G))))
       (a!3 (and (not C)
                 B
                 (not A)
@@ -55,7 +55,7 @@
                 (= E D)
                 (= K J)
                 (not (bvsle H #x00000000))
-                (not (bvsle (bvsdiv_i L #x00000002) G)))))
+                (not (bvsle (bvsdiv L #x00000002) G)))))
   (or a!1
       (and (not C)
            B

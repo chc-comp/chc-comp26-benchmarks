@@ -1121,7 +1121,7 @@
                  (= C2 B2)
                  (= G2 F2)
                  (= I2 H2)
-                 (= F5 (bvsdiv_i (bvmul T2 K) N4))
+                 (= F5 (bvsdiv (bvmul T2 K) N4))
                  (= E5 I5)
                  (= Y2 X2)
                  (= A3 Z2)

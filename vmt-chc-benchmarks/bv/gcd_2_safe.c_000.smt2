@@ -31,7 +31,7 @@
                 (= R Y)
                 (not (= ((_ extract 7 7) Z) #b1))))
       (a!9 ((_ extract 7 0)
-             (bvsrem_i (concat ((_ extract 7 7) G)
+             (bvsrem (concat ((_ extract 7 7) G)
                                ((_ extract 7 7) G)
                                ((_ extract 7 7) G)
                                ((_ extract 7 7) G)

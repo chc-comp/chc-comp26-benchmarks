@@ -26,8 +26,8 @@
       (and
         (|p$main_4196572::62!slice!1| L D E I G P K A O Q F B S M R J C N)
         (let ((a!1 (= T (bvadd #x00000001 O (concat ((_ extract 30 0) Q) #b0))))
-      (a!2 (bvadd (concat ((_ extract 28 0) (bvsdiv_i U #x0000000a)) #b00)
-                  ((_ extract 30 0) (bvsdiv_i U #x0000000a))))
+      (a!2 (bvadd (concat ((_ extract 28 0) (bvsdiv U #x0000000a)) #b00)
+                  ((_ extract 30 0) (bvsdiv U #x0000000a))))
       (a!3 (bvadd Q
                   (concat (bvmul #b1111111111111111111111111111111
                                  ((_ extract 30 0) O))
@@ -49,8 +49,8 @@
       (and
         (|p$main_4196572::62!slice!1| L D E I G P K A O Q F B S M R J C N)
         (let ((a!1 (= T (bvadd #x00000001 O (concat ((_ extract 30 0) Q) #b0))))
-      (a!2 (bvadd (concat ((_ extract 28 0) (bvsdiv_i U #x0000000a)) #b00)
-                  ((_ extract 30 0) (bvsdiv_i U #x0000000a))))
+      (a!2 (bvadd (concat ((_ extract 28 0) (bvsdiv U #x0000000a)) #b00)
+                  ((_ extract 30 0) (bvsdiv U #x0000000a))))
       (a!3 (bvadd Q
                   (concat (bvmul #b1111111111111111111111111111111
                                  ((_ extract 30 0) O))
@@ -71,11 +71,11 @@
     (=>
       (and
         (let ((a!1 (bvnot (bvadd (concat ((_ extract 30 0) A) #b0) D)))
-      (a!2 (bvadd (concat ((_ extract 27 0) (bvsdiv_i R #x00000014)) #b00)
-                  ((_ extract 29 0) (bvsdiv_i R #x00000014)))))
+      (a!2 (bvadd (concat ((_ extract 27 0) (bvsdiv R #x00000014)) #b00)
+                  ((_ extract 29 0) (bvsdiv R #x00000014)))))
 (let ((a!3 (= J (bvadd R (bvmul #xffffffff (concat a!2 #b00))))))
   (and (not (bvsle #x00000000 a!1))
-       (= B (concat #x00000000 (bvsdiv_i R #x00000014)))
+       (= B (concat #x00000000 (bvsdiv R #x00000014)))
        a!3)))
       )
       (|p$main_4196572::62!slice!1| B F G K I P M J D A H C S N Q L E O)

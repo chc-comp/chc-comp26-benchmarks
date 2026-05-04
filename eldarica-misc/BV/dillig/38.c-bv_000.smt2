@@ -193,7 +193,7 @@
     (=>
       (and
         (h12 A B C D E F G H)
-        (= (bvsmod_i H #x00000002) #x00000000)
+        (= (bvsmod H #x00000002) #x00000000)
       )
       (h13 A B C D E F G H)
     )
@@ -215,7 +215,7 @@
     (=>
       (and
         (h12 A B C D E F G H)
-        (not (= (bvsmod_i H #x00000002) #x00000000))
+        (not (= (bvsmod H #x00000002) #x00000000))
       )
       (h15 A B C D E F G H)
     )
@@ -226,7 +226,7 @@
     (=>
       (and
         (h12 A B C D E F G H)
-        (not (= (bvsmod_i H #x00000002) #x00000000))
+        (not (= (bvsmod H #x00000002) #x00000000))
       )
       (h16 A B C D E F G H)
     )
@@ -248,7 +248,7 @@
     (=>
       (and
         (h17 A B C D E F G H)
-        (= (bvsmod_i H #x00000002) #x00000000)
+        (= (bvsmod H #x00000002) #x00000000)
       )
       (h18 A B C D E F G H)
     )
