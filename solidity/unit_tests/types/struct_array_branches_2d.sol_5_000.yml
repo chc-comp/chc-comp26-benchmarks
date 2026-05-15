@@ -4,7 +4,4 @@ options:
   language: SMT-LIB
 properties:
 - expected_verdict: true
-  majority_vote_verdict: sat
   property_file: ../../../properties/check-sat.prp
-  sat:
-  - spacer
