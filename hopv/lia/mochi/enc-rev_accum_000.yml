@@ -10,6 +10,7 @@ properties:
   - eldarica
   - golem
   - loat
+  - mucyc
+  - pcsat
   - theta
-  - ultimatetreeautomizer
-  - ultimateunihorn
+  - z4

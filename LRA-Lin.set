@@ -38,7 +38,6 @@
 ./sally-chc-benchmarks/misc/frolloc_lifo_prop1_000.yml
 ./sally-chc-benchmarks/misc/inc_cas_prop1_000.yml
 ./sally-chc-benchmarks/misc/inc_cas_prop2_000.yml
-./sally-chc-benchmarks/misc/mvs_with_timeouts3_000.yml
 ./sally-chc-benchmarks/misc/nonatomic_inc_cas_prop1_000.yml
 ./sally-chc-benchmarks/misc/nonatomic_inc_cas_prop2_000.yml
 ./sally-chc-benchmarks/misc/wbs_simple_7_7_000.yml

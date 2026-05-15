@@ -9,5 +9,4 @@ properties:
   sat:
   - golem
   - mucyc
-  - pcsat
   - spacer

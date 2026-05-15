@@ -753,7 +753,6 @@
 ./ringen-adt-benchmarks/tip2015/weird_nat_mul3acc_assoc1_000.yml
 ./ringen-adt-benchmarks/tip2015/weird_nat_mul3acc_assoc2_000.yml
 ./ringen-adt-benchmarks/tip2015/weird_nat_mul3acc_assoc3_000.yml
-./ringen-adt-benchmarks/tip2015/weird_nat_mul3acc_spec_000.yml
 ./rust-horn/inc-max-1-base-safe_000.yml
 ./rust-horn/inc-max-1-base-unsafe_000.yml
 ./rust-horn/inc-max-2-base3-safe_000.yml

@@ -8,7 +8,4 @@ properties:
   property_file: ../../properties/check-sat.prp
   unsat:
   - golem
-  - mucyc
   - spacer
-  - theta
-  - ultimateunihorn

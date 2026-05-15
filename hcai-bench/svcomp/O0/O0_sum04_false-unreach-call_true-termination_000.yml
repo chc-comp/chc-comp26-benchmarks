@@ -6,8 +6,6 @@ properties:
 - expected_verdict: false
   majority_vote_verdict: unsat
   property_file: ../../../properties/check-sat.prp
-  sat:
-  - chc2c
   unsat:
   - eldarica
   - golem
@@ -15,6 +13,3 @@ properties:
   - mucyc
   - pcsat
   - spacer
-  - theta
-  - ultimatetreeautomizer
-  - ultimateunihorn

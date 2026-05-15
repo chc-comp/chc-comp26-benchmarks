@@ -7,10 +7,9 @@ properties:
   majority_vote_verdict: sat
   property_file: ../../../properties/check-sat.prp
   sat:
-  - eldarica
   - golem
   - loat
   - mucyc
+  - pcsat
   - spacer
   - theta
-  - ultimateunihorn

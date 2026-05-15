@@ -9,8 +9,8 @@ properties:
   sat:
   - eldarica
   - golem
+  - loat
   - mucyc
   - pcsat
   - spacer
   - theta
-  - ultimateunihorn

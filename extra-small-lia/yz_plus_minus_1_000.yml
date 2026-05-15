@@ -7,11 +7,10 @@ properties:
   majority_vote_verdict: sat
   property_file: ../properties/check-sat.prp
   sat:
-  - chc2c
   - eldarica
   - golem
   - loat
   - pcsat
   - spacer
   - theta
-  - ultimateunihorn
+  - z4

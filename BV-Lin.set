@@ -164,21 +164,6 @@
 ./eldarica-misc/BV/dillig/41.c-bv_000.yml
 ./eldarica-misc/BV/dillig/45.c-bv_000.yml
 ./eldarica-misc/BV/dillig/46.c-bv_000.yml
-./eldarica-misc/BV/dillig/02.c-bv_000.yml
-./eldarica-misc/BV/dillig/05.c-bv_000.yml
-./eldarica-misc/BV/dillig/06.c-bv_000.yml
-./eldarica-misc/BV/dillig/10.c-bv_000.yml
-./eldarica-misc/BV/dillig/11.c-bv_000.yml
-./eldarica-misc/BV/dillig/21.c-bv_000.yml
-./eldarica-misc/BV/dillig/22.c-bv_000.yml
-./eldarica-misc/BV/dillig/25.c-bv_000.yml
-./eldarica-misc/BV/dillig/26.c-bv_000.yml
-./eldarica-misc/BV/dillig/28.c-bv_000.yml
-./eldarica-misc/BV/dillig/29.c-bv_000.yml
-./eldarica-misc/BV/dillig/33.c-bv_000.yml
-./eldarica-misc/BV/dillig/40.c-bv_000.yml
-./eldarica-misc/BV/dillig/43.c-bv_000.yml
-./eldarica-misc/BV/dillig/44.c-bv_000.yml
 ./eldarica-misc/BV/qarmc/amebsa-bv_000.yml
 ./eldarica-misc/BV/qarmc/amotsa-bv_000.yml
 ./eldarica-misc/BV/qarmc/bandec-bv_000.yml
@@ -452,7 +437,6 @@
 ./vmt-chc-benchmarks/bv/fragtest_simple.c_000_000.yml
 ./vmt-chc-benchmarks/bv/gulwani_cegar1.c_000_000.yml
 ./vmt-chc-benchmarks/bv/gulwani_cegar2.c_000_000.yml
-./vmt-chc-benchmarks/bv/id_build.c_000_000.yml
 ./vmt-chc-benchmarks/bv/interleave_bits_safe.c_000.yml
 ./vmt-chc-benchmarks/bv/jain_1_safe.c_000.yml
 ./vmt-chc-benchmarks/bv/jain_4_safe.c_000.yml
@@ -519,7 +503,6 @@
 ./vmt-chc-benchmarks/bv/up5.c_000_000.yml
 ./vmt-chc-benchmarks/bv/bind_expands_vars2.c_000_000.yml
 ./vmt-chc-benchmarks/bv/gulwani_fig1a.c_000_000.yml
-./vmt-chc-benchmarks/bv/jain_2_safe.c_000.yml
 ./vmt-chc-benchmarks/bv/nested7.c_000_000.yml
 ./vmt-chc-benchmarks/bv/simple_array_inversion-1_000_000.yml
 ./vmt-chc-benchmarks/bv/simple_array_inversion-2_000_000.yml

@@ -8,7 +8,5 @@ properties:
   property_file: ../../properties/check-sat.prp
   sat:
   - eldarica
-  - pcsat
+  - loat
   - theta
-  - ultimatetreeautomizer
-  - ultimateunihorn

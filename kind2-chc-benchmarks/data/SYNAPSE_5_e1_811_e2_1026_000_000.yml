@@ -9,7 +9,5 @@ properties:
   unsat:
   - eldarica
   - golem
-  - mucyc
   - pcsat
   - spacer
-  - ultimateunihorn

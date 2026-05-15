@@ -3,8 +3,8 @@ input_files: pzextr-bv_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: false
-  majority_vote_verdict: unsat
+- expected_verdict: true
+  majority_vote_verdict: sat
   property_file: ../../../properties/check-sat.prp
-  unsat:
-  - theta
+  sat:
+  - eldarica

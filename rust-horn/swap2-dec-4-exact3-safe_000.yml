@@ -7,4 +7,5 @@ properties:
   majority_vote_verdict: sat
   property_file: ../properties/check-sat.prp
   sat:
+  - chococatalia
   - eldarica

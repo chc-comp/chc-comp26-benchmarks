@@ -9,5 +9,5 @@ properties:
   sat:
   - eldarica
   - golem
-  - pcsat
+  - mucyc
   - spacer

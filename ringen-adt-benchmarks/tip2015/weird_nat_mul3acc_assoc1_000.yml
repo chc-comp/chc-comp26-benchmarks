@@ -3,9 +3,9 @@ input_files: weird_nat_mul3acc_assoc1_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: false
-  majority_vote_verdict: unsat
+- majority_vote_verdict: inconsistent
   property_file: ../../properties/check-sat.prp
+  sat:
+  - spacer
   unsat:
-  - chococatalia
   - eldarica

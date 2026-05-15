@@ -3,6 +3,8 @@ input_files: sort_BSortIsSort_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../../properties/check-sat.prp
-  expected_verdict: true
-  # placeholder verdict (auto-added)
+- expected_verdict: true
+  majority_vote_verdict: sat
+  property_file: ../../properties/check-sat.prp
+  sat:
+  - pcsat

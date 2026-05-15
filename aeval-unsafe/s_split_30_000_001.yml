@@ -3,6 +3,13 @@ input_files: s_split_30_000.smt2
 options:
   language: SMT-LIB
 properties:
-- property_file: ../properties/check-sat.prp
-  expected_verdict: true
-  # placeholder verdict (auto-added)
+- expected_verdict: false
+  majority_vote_verdict: unsat
+  property_file: ../properties/check-sat.prp
+  unsat:
+  - eldarica
+  - golem
+  - loat
+  - mucyc
+  - spacer
+  - theta

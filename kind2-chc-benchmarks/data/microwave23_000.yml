@@ -7,6 +7,6 @@ properties:
   majority_vote_verdict: unsat
   property_file: ../../properties/check-sat.prp
   unsat:
+  - eldarica
   - golem
-  - mucyc
   - spacer

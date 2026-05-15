@@ -9,5 +9,6 @@ properties:
   sat:
   - eldarica
   - loat
+  - mucyc
   - pcsat
   - spacer

@@ -9,6 +9,7 @@ properties:
   unsat:
   - eldarica
   - golem
+  - loat
+  - mucyc
   - pcsat
   - spacer
-  - theta

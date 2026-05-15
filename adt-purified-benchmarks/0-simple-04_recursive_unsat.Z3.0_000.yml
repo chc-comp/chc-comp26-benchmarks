@@ -8,6 +8,5 @@ properties:
   property_file: ../properties/check-sat.prp
   sat:
   - chococatalia
-  - eldarica
   - pcsat
   - spacer

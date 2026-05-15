@@ -3,9 +3,9 @@ input_files: pc_sfifo_2_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
-  majority_vote_verdict: sat
+- majority_vote_verdict: inconsistent
   property_file: ../../properties/check-sat.prp
   sat:
-  - eldarica
   - spacer
+  unsat:
+  - z4

@@ -9,5 +9,5 @@ properties:
   sat:
   - golem
   - mucyc
+  - pcsat
   - spacer
-  - ultimateunihorn

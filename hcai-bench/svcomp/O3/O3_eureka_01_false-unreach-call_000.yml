@@ -9,4 +9,6 @@ properties:
   unsat:
   - eldarica
   - golem
+  - loat
+  - mucyc
   - spacer

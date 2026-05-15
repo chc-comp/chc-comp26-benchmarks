@@ -9,6 +9,5 @@ properties:
   unsat:
   - golem
   - loat
+  - mucyc
   - spacer
-  - theta
-  - ultimateunihorn

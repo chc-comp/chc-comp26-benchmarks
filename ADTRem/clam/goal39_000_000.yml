@@ -3,8 +3,8 @@ input_files: goal39_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
-  majority_vote_verdict: sat
+- expected_verdict: false
+  majority_vote_verdict: unsat
   property_file: ../../properties/check-sat.prp
-  sat:
-  - chococatalia
+  unsat:
+  - mucyc

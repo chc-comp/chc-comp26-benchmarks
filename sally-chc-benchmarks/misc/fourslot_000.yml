@@ -8,4 +8,6 @@ properties:
   property_file: ../../properties/check-sat.prp
   sat:
   - golem
+  - mucyc
   - spacer
+  - theta

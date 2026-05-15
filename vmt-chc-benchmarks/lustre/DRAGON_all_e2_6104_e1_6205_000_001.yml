@@ -8,7 +8,8 @@ properties:
   property_file: ../../properties/check-sat.prp
   sat:
   - golem
+  - loat
   - mucyc
+  - pcsat
   - spacer
   - theta
-  - ultimatetreeautomizer

@@ -3,8 +3,9 @@ input_files: tip2015_sort_NStoogeSortCount_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: true
-  majority_vote_verdict: sat
+- majority_vote_verdict: inconsistent
   property_file: ../properties/check-sat.prp
   sat:
-  - chococatalia
+  - spacer
+  unsat:
+  - mucyc

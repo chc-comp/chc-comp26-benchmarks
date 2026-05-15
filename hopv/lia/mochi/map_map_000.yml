@@ -9,5 +9,7 @@ properties:
   sat:
   - eldarica
   - golem
+  - mucyc
+  - pcsat
   - spacer
-  - ultimateunihorn
+  - z4
