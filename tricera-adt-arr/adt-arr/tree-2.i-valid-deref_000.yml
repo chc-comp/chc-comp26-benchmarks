@@ -3,7 +3,8 @@ input_files: tree-2.i-valid-deref_000.smt2
 options:
   language: SMT-LIB
 properties:
-- majority_vote_verdict: inconsistent
+- expected_verdict: true
+  majority_vote_verdict: inconsistent
   property_file: ../../properties/check-sat.prp
   sat:
   - spacer
