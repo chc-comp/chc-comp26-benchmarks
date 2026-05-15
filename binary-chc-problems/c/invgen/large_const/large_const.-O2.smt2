@@ -67,8 +67,8 @@
   (forall ( (A (_ BitVec 64)) (B (_ BitVec 32)) (C (_ BitVec 32)) (D (_ BitVec 64)) (E (_ BitVec 32)) (F (_ BitVec 64)) (G (_ BitVec 64)) (H (_ BitVec 32)) (v_8 (_ BitVec 64)) (v_9 (_ BitVec 64)) ) 
     (=>
       (and
-        (let ((a!1 (bvadd ((_ extract 30 0) (bvsdiv_i H #x0000000a))
-                  (concat ((_ extract 28 0) (bvsdiv_i H #x0000000a)) #b00)))
+        (let ((a!1 (bvadd ((_ extract 30 0) (bvsdiv H #x0000000a))
+                  (concat ((_ extract 28 0) (bvsdiv H #x0000000a)) #b00)))
       (a!3 (= ((_ extract 31 11) (bvadd #xffffffff ((_ extract 31 0) A)))
               #b000000000000000000000)))
 (let ((a!2 (concat #x00000000 (bvadd H (bvmul #xffffffff (concat a!1 #b0))))))

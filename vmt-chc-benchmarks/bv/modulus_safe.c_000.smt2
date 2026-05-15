@@ -19,7 +19,7 @@
       (and
         (state A Z Y X N Q S J I G F)
         (let ((a!1 (or (and (not (= J I)) (= K J)) (and (= J I) (= K #x00000000))))
-      (a!2 (or (= R #x00000001) (not (= K (bvurem_i G I)))))
+      (a!2 (or (= R #x00000001) (not (= K (bvurem G I)))))
       (a!4 (bvadd J (bvnot (bvor (bvnot I) (bvnot G))))))
 (let ((a!3 (and (not A)
                 (not E)
@@ -30,7 +30,7 @@
                 Y
                 (not Z)
                 a!1
-                (or (= R #x00000000) (= K (bvurem_i G I)))
+                (or (= R #x00000000) (= K (bvurem G I)))
                 a!2
                 (= R #x00000000)
                 (= O I)

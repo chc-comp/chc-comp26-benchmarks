@@ -31,8 +31,8 @@
     (=>
       (and
         (let ((a!1 (bvnot (bvadd A (concat ((_ extract 30 0) E) #b0))))
-      (a!2 (bvadd ((_ extract 29 0) (bvsdiv_i G #x00000014))
-                  (concat ((_ extract 27 0) (bvsdiv_i G #x00000014)) #b00))))
+      (a!2 (bvadd ((_ extract 29 0) (bvsdiv G #x00000014))
+                  (concat ((_ extract 27 0) (bvsdiv G #x00000014)) #b00))))
 (let ((a!3 (concat #x00000000 (bvadd G (bvmul #xffffffff (concat a!2 #b00))))))
   (and (not (bvsle #x00000000 a!1))
        (= B (concat #x00000000 E))
@@ -118,8 +118,8 @@
     (=>
       (and
         (let ((a!1 (bvnot (bvadd A (concat ((_ extract 30 0) B) #b0))))
-      (a!2 (bvadd ((_ extract 29 0) (bvsdiv_i C #x00000014))
-                  (concat ((_ extract 27 0) (bvsdiv_i C #x00000014)) #b00)))
+      (a!2 (bvadd ((_ extract 29 0) (bvsdiv C #x00000014))
+                  (concat ((_ extract 27 0) (bvsdiv C #x00000014)) #b00)))
       (a!3 (bvnot (bvadd (concat ((_ extract 30 0) B) #b0) A))))
   (and (not (bvsle #x00000000 a!1))
        (= C (concat a!2 #b00))

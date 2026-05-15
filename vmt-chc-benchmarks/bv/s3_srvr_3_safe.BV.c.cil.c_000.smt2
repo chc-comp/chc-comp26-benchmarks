@@ -952,7 +952,7 @@
                  (= A #x00000003)
                  (= N4 T3)
                  (= T3 O4)
-                 (= B (bvadd A (bvsdiv_i X1 H3)))))
+                 (= B (bvadd A (bvsdiv X1 H3)))))
       (a!41 (and a!40
                  (= F4 #x00000001)
                  (= P3 H2)

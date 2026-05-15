@@ -18,8 +18,8 @@
     (=>
       (and
         (state E1 B1 C1 D1 I K M O Q U W R D E X)
-        (let ((a!1 (or (= P #x00000001) (not (= (bvsrem_i R H) #x00000000))))
-      (a!3 (or (= J #x00000001) (not (= (bvsrem_i X H) #x00000000))))
+        (let ((a!1 (or (= P #x00000001) (not (= (bvsrem R H) #x00000000))))
+      (a!3 (or (= J #x00000001) (not (= (bvsrem X H) #x00000000))))
       (a!6 (and (= G D) (= F (bvadd E (bvmul #xffffffff D))) (not (bvsle E D))))
       (a!7 (and (= G (bvadd D (bvmul #xffffffff E))) (= F E) (bvsle E D)))
       (a!8 (and (= A1 S)
@@ -36,7 +36,7 @@
                 (not D1)
                 E1
                 (not A)
-                (or (= P #x00000000) (= (bvsrem_i R H) #x00000000))
+                (or (= P #x00000000) (= (bvsrem R H) #x00000000))
                 a!1
                 (= Y X)
                 (= S R)
@@ -57,9 +57,9 @@
                 (not D1)
                 E1
                 (not A)
-                (or (= P #x00000000) (= (bvsrem_i R H) #x00000000))
+                (or (= P #x00000000) (= (bvsrem R H) #x00000000))
                 a!1
-                (or (= J #x00000000) (= (bvsrem_i X H) #x00000000))
+                (or (= J #x00000000) (= (bvsrem X H) #x00000000))
                 a!3
                 (= Y X)
                 (= S R)
@@ -82,9 +82,9 @@
                 A
                 (or (= V #x00000000) (= H #x00000009))
                 (or (= V #x00000001) (not (= H #x00000009)))
-                (or (= P #x00000000) (= (bvsrem_i R H) #x00000000))
+                (or (= P #x00000000) (= (bvsrem R H) #x00000000))
                 a!1
-                (or (= J #x00000000) (= (bvsrem_i X H) #x00000000))
+                (or (= J #x00000000) (= (bvsrem X H) #x00000000))
                 a!3
                 (= Y X)
                 (= V #x00000000)

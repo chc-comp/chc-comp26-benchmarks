@@ -214,7 +214,7 @@
   (forall ( (A (_ BitVec 32)) (B (_ BitVec 64)) (C (_ BitVec 32)) (D (_ BitVec 64)) (E (_ BitVec 32)) (F (_ BitVec 64)) (G (_ BitVec 1)) (H (_ BitVec 64)) ) 
     (=>
       (and
-        (let ((a!1 (= H (concat #x00000000 (bvsdiv_i ((_ extract 31 0) B) #x00000008))))
+        (let ((a!1 (= H (concat #x00000000 (bvsdiv ((_ extract 31 0) B) #x00000008))))
       (a!2 (bvor ((_ extract 31 31) F)
                  (ite (= ((_ extract 31 0) F) #x00000000) #b1 #b0))))
   (and (not (bvsle #x00000000 ((_ extract 31 0) B)))
@@ -233,7 +233,7 @@
   (forall ( (A (_ BitVec 32)) (B (_ BitVec 64)) (C (_ BitVec 32)) (D (_ BitVec 64)) (E (_ BitVec 32)) (F (_ BitVec 64)) (G (_ BitVec 1)) (H (_ BitVec 64)) ) 
     (=>
       (and
-        (let ((a!1 (= H (concat #x00000000 (bvsdiv_i ((_ extract 31 0) B) #x00000008))))
+        (let ((a!1 (= H (concat #x00000000 (bvsdiv ((_ extract 31 0) B) #x00000008))))
       (a!2 (bvor ((_ extract 31 31) F)
                  (ite (= ((_ extract 31 0) F) #x00000000) #b1 #b0))))
   (and (bvsle #x00000000 ((_ extract 31 0) B))

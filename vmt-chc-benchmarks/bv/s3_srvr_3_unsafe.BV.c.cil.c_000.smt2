@@ -954,7 +954,7 @@
                  (= A #x00000003)
                  (= P4 R2)
                  (= R2 Q4)
-                 (= B (bvadd A (bvsdiv_i Z1 J3)))))
+                 (= B (bvadd A (bvsdiv Z1 J3)))))
       (a!41 (and a!40
                  (= H4 #x00000001)
                  (= R3 J2)
